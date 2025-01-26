@@ -12,7 +12,7 @@ log_file = open("fmp5.log", "w", buffering=1)
 sys.stdout = log_file
 sys.stderr = log_file
 
-API_KEY = "7d249bca36be144c39b2e02124d0baaf"
+API_KEY = "YOUR API KEY GOES HERE"
 SYMBOL = "GME"
 INITIAL_BALANCE = 10000
 TRANSACTION_FEE = 2.5
