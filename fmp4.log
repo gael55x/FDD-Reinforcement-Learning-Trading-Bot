@@ -1,0 +1,1509 @@
+Fetching Fail to Deliver data...
+Fetching historical price data...
+Merging datasets and computing features...
+Setting up the ShortSqueezeEnv...
+Training the PPO model...
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1.24e+03 |
+|    ep_rew_mean     | 6.29e+04 |
+| time/              |          |
+|    fps             | 1992     |
+|    iterations      | 1        |
+|    time_elapsed    | 1        |
+|    total_timesteps | 2048     |
+---------------------------------
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 1.24e+03      |
+|    ep_rew_mean          | 8.71e+05      |
+| time/                   |               |
+|    fps                  | 1518          |
+|    iterations           | 2             |
+|    time_elapsed         | 2             |
+|    total_timesteps      | 4096          |
+| train/                  |               |
+|    approx_kl            | 0.00033855982 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -1.1          |
+|    explained_variance   | 5.96e-08      |
+|    learning_rate        | 0.0003        |
+|    loss                 | 5.86e+07      |
+|    n_updates            | 10            |
+|    policy_gradient_loss | -0.000266     |
+|    value_loss           | 1.5e+08       |
+-------------------------------------------
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 1.24e+03      |
+|    ep_rew_mean          | 6.73e+05      |
+| time/                   |               |
+|    fps                  | 1375          |
+|    iterations           | 3             |
+|    time_elapsed         | 4             |
+|    total_timesteps      | 6144          |
+| train/                  |               |
+|    approx_kl            | 5.8648933e-05 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -1.1          |
+|    explained_variance   | -1.19e-07     |
+|    learning_rate        | 0.0003        |
+|    loss                 | 1.72e+08      |
+|    n_updates            | 20            |
+|    policy_gradient_loss | -0.000118     |
+|    value_loss           | 4.26e+08      |
+-------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.24e+03    |
+|    ep_rew_mean          | 1.03e+06    |
+| time/                   |             |
+|    fps                  | 1335        |
+|    iterations           | 4           |
+|    time_elapsed         | 6           |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 2.05033e-05 |
+|    clip_fraction        | 0           |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.1        |
+|    explained_variance   | 0           |
+|    learning_rate        | 0.0003      |
+|    loss                 | 5.4e+08     |
+|    n_updates            | 30          |
+|    policy_gradient_loss | -5.41e-05   |
+|    value_loss           | 2.29e+09    |
+-----------------------------------------
+--------------------------------------------
+| rollout/                |                |
+|    ep_len_mean          | 1.24e+03       |
+|    ep_rew_mean          | 9.67e+05       |
+| time/                   |                |
+|    fps                  | 1304           |
+|    iterations           | 5              |
+|    time_elapsed         | 7              |
+|    total_timesteps      | 10240          |
+| train/                  |                |
+|    approx_kl            | 0.000107929605 |
+|    clip_fraction        | 0              |
+|    clip_range           | 0.2            |
+|    entropy_loss         | -1.1           |
+|    explained_variance   | 0              |
+|    learning_rate        | 0.0003         |
+|    loss                 | 4.12e+07       |
+|    n_updates            | 40             |
+|    policy_gradient_loss | -0.000107      |
+|    value_loss           | 4.55e+08       |
+--------------------------------------------
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 1.24e+03      |
+|    ep_rew_mean          | 9.59e+05      |
+| time/                   |               |
+|    fps                  | 1289          |
+|    iterations           | 6             |
+|    time_elapsed         | 9             |
+|    total_timesteps      | 12288         |
+| train/                  |               |
+|    approx_kl            | 5.9941463e-05 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -1.1          |
+|    explained_variance   | 0             |
+|    learning_rate        | 0.0003        |
+|    loss                 | 1.15e+08      |
+|    n_updates            | 50            |
+|    policy_gradient_loss | -5.96e-05     |
+|    value_loss           | 1.59e+08      |
+-------------------------------------------
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 1.24e+03      |
+|    ep_rew_mean          | 8.78e+05      |
+| time/                   |               |
+|    fps                  | 1270          |
+|    iterations           | 7             |
+|    time_elapsed         | 11            |
+|    total_timesteps      | 14336         |
+| train/                  |               |
+|    approx_kl            | 4.5834517e-05 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -1.1          |
+|    explained_variance   | 0             |
+|    learning_rate        | 0.0003        |
+|    loss                 | 1.01e+08      |
+|    n_updates            | 60            |
+|    policy_gradient_loss | -5.55e-05     |
+|    value_loss           | 1.77e+08      |
+-------------------------------------------
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 1.24e+03      |
+|    ep_rew_mean          | 8.64e+05      |
+| time/                   |               |
+|    fps                  | 1257          |
+|    iterations           | 8             |
+|    time_elapsed         | 13            |
+|    total_timesteps      | 16384         |
+| train/                  |               |
+|    approx_kl            | 5.9083686e-05 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -1.1          |
+|    explained_variance   | -2.38e-07     |
+|    learning_rate        | 0.0003        |
+|    loss                 | 3.99e+07      |
+|    n_updates            | 70            |
+|    policy_gradient_loss | -4.55e-05     |
+|    value_loss           | 7.79e+07      |
+-------------------------------------------
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 1.24e+03      |
+|    ep_rew_mean          | 8.23e+05      |
+| time/                   |               |
+|    fps                  | 1247          |
+|    iterations           | 9             |
+|    time_elapsed         | 14            |
+|    total_timesteps      | 18432         |
+| train/                  |               |
+|    approx_kl            | 0.00021390576 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -1.1          |
+|    explained_variance   | 5.96e-08      |
+|    learning_rate        | 0.0003        |
+|    loss                 | 5.49e+07      |
+|    n_updates            | 80            |
+|    policy_gradient_loss | -0.000287     |
+|    value_loss           | 1.22e+08      |
+-------------------------------------------
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 1.24e+03      |
+|    ep_rew_mean          | 7.79e+05      |
+| time/                   |               |
+|    fps                  | 1237          |
+|    iterations           | 10            |
+|    time_elapsed         | 16            |
+|    total_timesteps      | 20480         |
+| train/                  |               |
+|    approx_kl            | 0.00053798937 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -1.1          |
+|    explained_variance   | -1.19e-07     |
+|    learning_rate        | 0.0003        |
+|    loss                 | 6.85e+07      |
+|    n_updates            | 90            |
+|    policy_gradient_loss | -0.000666     |
+|    value_loss           | 1.45e+08      |
+-------------------------------------------
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 1.24e+03      |
+|    ep_rew_mean          | 8.12e+05      |
+| time/                   |               |
+|    fps                  | 1228          |
+|    iterations           | 11            |
+|    time_elapsed         | 18            |
+|    total_timesteps      | 22528         |
+| train/                  |               |
+|    approx_kl            | 0.00049026107 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -1.09         |
+|    explained_variance   | 0             |
+|    learning_rate        | 0.0003        |
+|    loss                 | 6.03e+07      |
+|    n_updates            | 100           |
+|    policy_gradient_loss | -0.000484     |
+|    value_loss           | 1.81e+08      |
+-------------------------------------------
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1.24e+03     |
+|    ep_rew_mean          | 7.74e+05     |
+| time/                   |              |
+|    fps                  | 1224         |
+|    iterations           | 12           |
+|    time_elapsed         | 20           |
+|    total_timesteps      | 24576        |
+| train/                  |              |
+|    approx_kl            | 6.919715e-05 |
+|    clip_fraction        | 0            |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.09        |
+|    explained_variance   | 5.96e-08     |
+|    learning_rate        | 0.0003       |
+|    loss                 | 1.04e+08     |
+|    n_updates            | 110          |
+|    policy_gradient_loss | -9.6e-05     |
+|    value_loss           | 2.1e+08      |
+------------------------------------------
+-------------------------------------------
+| rollout/                |               |
+|    ep_len_mean          | 1.24e+03      |
+|    ep_rew_mean          | 1.02e+06      |
+| time/                   |               |
+|    fps                  | 1219          |
+|    iterations           | 13            |
+|    time_elapsed         | 21            |
+|    total_timesteps      | 26624         |
+| train/                  |               |
+|    approx_kl            | 3.3611577e-05 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -1.09         |
+|    explained_variance   | -1.19e-07     |
+|    learning_rate        | 0.0003        |
+|    loss                 | 1.03e+09      |
+|    n_updates            | 120           |
+|    policy_gradient_loss | -0.000138     |
+|    value_loss           | 2.58e+09      |
+-------------------------------------------
+Evaluating the trained model...
+Step 1 | Action: 2 | Balance: $10000.00 | Shares: 0 | Reward: 0.00
+Step 2 | Action: 0 | Balance: $10000.00 | Shares: 0 | Reward: 0.00
+Step 3 | Action: 2 | Balance: $10000.00 | Shares: 0 | Reward: 0.00
+Step 4 | Action: 2 | Balance: $10000.00 | Shares: 0 | Reward: 0.00
+Step 5 | Action: 0 | Balance: $10000.00 | Shares: 0 | Reward: 0.00
+Step 6 | Action: 1 | Balance: $0.48 | Shares: 11016 | Reward: 3.83
+Step 7 | Action: 2 | Balance: $10380.56 | Shares: 0 | Reward: 3.81
+Step 8 | Action: 1 | Balance: $0.88 | Shares: 10482 | Reward: 2.73
+Step 9 | Action: 0 | Balance: $0.88 | Shares: 10482 | Reward: -3.03
+Step 10 | Action: 2 | Balance: $9694.23 | Shares: 0 | Reward: -3.06
+Step 11 | Action: 2 | Balance: $9694.23 | Shares: 0 | Reward: -3.06
+Step 12 | Action: 2 | Balance: $9694.23 | Shares: 0 | Reward: -3.06
+Step 13 | Action: 0 | Balance: $9694.23 | Shares: 0 | Reward: -3.06
+Step 14 | Action: 2 | Balance: $9694.23 | Shares: 0 | Reward: -3.06
+Step 15 | Action: 1 | Balance: $0.54 | Shares: 8891 | Reward: -5.75
+Step 16 | Action: 2 | Balance: $9422.50 | Shares: 0 | Reward: -5.78
+Step 17 | Action: 2 | Balance: $9422.50 | Shares: 0 | Reward: -5.78
+Step 18 | Action: 2 | Balance: $9422.50 | Shares: 0 | Reward: -5.78
+Step 19 | Action: 1 | Balance: $0.26 | Shares: 10021 | Reward: -4.55
+Step 20 | Action: 2 | Balance: $9542.76 | Shares: 0 | Reward: -4.57
+Step 21 | Action: 0 | Balance: $9542.76 | Shares: 0 | Reward: -4.57
+Step 22 | Action: 2 | Balance: $9542.76 | Shares: 0 | Reward: -4.57
+Step 23 | Action: 2 | Balance: $9542.76 | Shares: 0 | Reward: -4.57
+Step 24 | Action: 1 | Balance: $0.26 | Shares: 9000 | Reward: -17.87
+Step 25 | Action: 2 | Balance: $8210.26 | Shares: 0 | Reward: -27.90
+Step 26 | Action: 2 | Balance: $8210.26 | Shares: 0 | Reward: -17.90
+Step 27 | Action: 1 | Balance: $0.70 | Shares: 10101 | Reward: -28.02
+Step 28 | Action: 2 | Balance: $7195.16 | Shares: 0 | Reward: -38.05
+Step 29 | Action: 0 | Balance: $7195.16 | Shares: 0 | Reward: -28.05
+Step 30 | Action: 2 | Balance: $7195.16 | Shares: 0 | Reward: -28.05
+Step 31 | Action: 1 | Balance: $0.30 | Shares: 8798 | Reward: -24.99
+Step 32 | Action: 0 | Balance: $0.30 | Shares: 8798 | Reward: -14.44
+Step 33 | Action: 0 | Balance: $0.30 | Shares: 8798 | Reward: 4.70
+Step 34 | Action: 1 | Balance: $0.30 | Shares: 8798 | Reward: 31.09
+Step 35 | Action: 2 | Balance: $13106.82 | Shares: 0 | Reward: 31.07
+Step 36 | Action: 1 | Balance: $0.68 | Shares: 9927 | Reward: 25.09
+Step 37 | Action: 0 | Balance: $0.68 | Shares: 9927 | Reward: 21.12
+Step 38 | Action: 1 | Balance: $12109.12 | Shares: 0 | Reward: 11.09
+Step 39 | Action: 0 | Balance: $12109.12 | Shares: 0 | Reward: 21.09
+Step 40 | Action: 2 | Balance: $12109.12 | Shares: 0 | Reward: 21.09
+Step 41 | Action: 2 | Balance: $12109.12 | Shares: 0 | Reward: 21.09
+Step 42 | Action: 0 | Balance: $12109.12 | Shares: 0 | Reward: 21.09
+Step 43 | Action: 2 | Balance: $12109.12 | Shares: 0 | Reward: 21.09
+Step 44 | Action: 2 | Balance: $12109.12 | Shares: 0 | Reward: 21.09
+Step 45 | Action: 1 | Balance: $0.36 | Shares: 8586 | Reward: 29.65
+Step 46 | Action: 0 | Balance: $0.36 | Shares: 8586 | Reward: 22.78
+Step 47 | Action: 0 | Balance: $0.36 | Shares: 8586 | Reward: 29.65
+Step 48 | Action: 0 | Balance: $0.36 | Shares: 8586 | Reward: 17.63
+Step 49 | Action: 0 | Balance: $0.36 | Shares: 8586 | Reward: 15.91
+Step 50 | Action: 0 | Balance: $0.36 | Shares: 8586 | Reward: 5.61
+Step 51 | Action: 1 | Balance: $10558.64 | Shares: 0 | Reward: -4.41
+Step 52 | Action: 1 | Balance: $0.70 | Shares: 8652 | Reward: 8.16
+Step 53 | Action: 2 | Balance: $10813.20 | Shares: 0 | Reward: 8.13
+Step 54 | Action: 2 | Balance: $10813.20 | Shares: 0 | Reward: 8.13
+Step 55 | Action: 1 | Balance: $0.08 | Shares: 9483 | Reward: -0.43
+Step 56 | Action: 1 | Balance: $9954.73 | Shares: 0 | Reward: -10.45
+Step 57 | Action: 0 | Balance: $9954.73 | Shares: 0 | Reward: -0.45
+Step 58 | Action: 0 | Balance: $9954.73 | Shares: 0 | Reward: -0.45
+Step 59 | Action: 2 | Balance: $9954.73 | Shares: 0 | Reward: -0.45
+Step 60 | Action: 1 | Balance: $1.08 | Shares: 8965 | Reward: -0.48
+Step 61 | Action: 2 | Balance: $9949.73 | Shares: 0 | Reward: -0.50
+Step 62 | Action: 1 | Balance: $0.52 | Shares: 8961 | Reward: -5.90
+Step 63 | Action: 0 | Balance: $0.52 | Shares: 8961 | Reward: -0.53
+Step 64 | Action: 1 | Balance: $0.52 | Shares: 8961 | Reward: 4.85
+Step 65 | Action: 2 | Balance: $10482.39 | Shares: 0 | Reward: 4.82
+Step 66 | Action: 2 | Balance: $10482.39 | Shares: 0 | Reward: 4.82
+Step 67 | Action: 0 | Balance: $10482.39 | Shares: 0 | Reward: 4.82
+Step 68 | Action: 2 | Balance: $10482.39 | Shares: 0 | Reward: 4.82
+Step 69 | Action: 0 | Balance: $10482.39 | Shares: 0 | Reward: 4.82
+Step 70 | Action: 1 | Balance: $0.38 | Shares: 9441 | Reward: 5.74
+Step 71 | Action: 1 | Balance: $0.38 | Shares: 9441 | Reward: -2.75
+Step 72 | Action: 1 | Balance: $9722.11 | Shares: 0 | Reward: -12.78
+Step 73 | Action: 0 | Balance: $9722.11 | Shares: 0 | Reward: -2.78
+Step 74 | Action: 0 | Balance: $9722.11 | Shares: 0 | Reward: -2.78
+Step 75 | Action: 2 | Balance: $9722.11 | Shares: 0 | Reward: -2.78
+Step 76 | Action: 0 | Balance: $9722.11 | Shares: 0 | Reward: -2.78
+Step 77 | Action: 1 | Balance: $1.13 | Shares: 8236 | Reward: -3.63
+Step 78 | Action: 1 | Balance: $1.13 | Shares: 8236 | Reward: -4.45
+Step 79 | Action: 1 | Balance: $1.13 | Shares: 8236 | Reward: -1.98
+Step 80 | Action: 2 | Balance: $9799.47 | Shares: 0 | Reward: -2.01
+Step 81 | Action: 0 | Balance: $9799.47 | Shares: 0 | Reward: -2.01
+Step 82 | Action: 1 | Balance: $0.37 | Shares: 8030 | Reward: -2.03
+Step 83 | Action: 2 | Balance: $9794.47 | Shares: 0 | Reward: -2.06
+Step 84 | Action: 1 | Balance: $0.65 | Shares: 8092 | Reward: -10.98
+Step 85 | Action: 2 | Balance: $8899.35 | Shares: 0 | Reward: -21.01
+Step 86 | Action: 2 | Balance: $8899.35 | Shares: 0 | Reward: -11.01
+Step 87 | Action: 2 | Balance: $8899.35 | Shares: 0 | Reward: -11.01
+Step 88 | Action: 0 | Balance: $8899.35 | Shares: 0 | Reward: -11.01
+Step 89 | Action: 2 | Balance: $8899.35 | Shares: 0 | Reward: -11.01
+Step 90 | Action: 2 | Balance: $8899.35 | Shares: 0 | Reward: -11.01
+Step 91 | Action: 0 | Balance: $8899.35 | Shares: 0 | Reward: -11.01
+Step 92 | Action: 2 | Balance: $8899.35 | Shares: 0 | Reward: -11.01
+Step 93 | Action: 0 | Balance: $8899.35 | Shares: 0 | Reward: -11.01
+Step 94 | Action: 0 | Balance: $8899.35 | Shares: 0 | Reward: -11.01
+Step 95 | Action: 2 | Balance: $8899.35 | Shares: 0 | Reward: -11.01
+Step 96 | Action: 1 | Balance: $0.27 | Shares: 8162 | Reward: -12.66
+Step 97 | Action: 1 | Balance: $0.27 | Shares: 8162 | Reward: -16.74
+Step 98 | Action: 2 | Balance: $8323.01 | Shares: 0 | Reward: -16.77
+Step 99 | Action: 2 | Balance: $8323.01 | Shares: 0 | Reward: -16.77
+Step 100 | Action: 1 | Balance: $0.51 | Shares: 8000 | Reward: -20.79
+Step 101 | Action: 1 | Balance: $0.51 | Shares: 8000 | Reward: -22.99
+Step 102 | Action: 2 | Balance: $7698.01 | Shares: 0 | Reward: -33.02
+Step 103 | Action: 1 | Balance: $0.51 | Shares: 7695 | Reward: -20.74
+Step 104 | Action: 2 | Balance: $7923.86 | Shares: 0 | Reward: -20.76
+Step 105 | Action: 0 | Balance: $7923.86 | Shares: 0 | Reward: -20.76
+Step 106 | Action: 0 | Balance: $7923.86 | Shares: 0 | Reward: -20.76
+Step 107 | Action: 1 | Balance: $0.36 | Shares: 7921 | Reward: -21.97
+Step 108 | Action: 1 | Balance: $0.36 | Shares: 7921 | Reward: -19.99
+Step 109 | Action: 0 | Balance: $0.36 | Shares: 7921 | Reward: -19.20
+Step 110 | Action: 0 | Balance: $0.36 | Shares: 7921 | Reward: -20.79
+Step 111 | Action: 0 | Balance: $0.36 | Shares: 7921 | Reward: -17.62
+Step 112 | Action: 1 | Balance: $0.36 | Shares: 7921 | Reward: -12.07
+Step 113 | Action: 1 | Balance: $0.36 | Shares: 7921 | Reward: -8.11
+Step 114 | Action: 1 | Balance: $0.36 | Shares: 7921 | Reward: -12.07
+Step 115 | Action: 0 | Balance: $0.36 | Shares: 7921 | Reward: -17.62
+Step 116 | Action: 1 | Balance: $0.36 | Shares: 7921 | Reward: -14.45
+Step 117 | Action: 1 | Balance: $0.36 | Shares: 7921 | Reward: -13.66
+Step 118 | Action: 2 | Balance: $8631.75 | Shares: 0 | Reward: -13.68
+Step 119 | Action: 2 | Balance: $8631.75 | Shares: 0 | Reward: -13.68
+Step 120 | Action: 0 | Balance: $8631.75 | Shares: 0 | Reward: -13.68
+Step 121 | Action: 1 | Balance: $0.56 | Shares: 7251 | Reward: -15.88
+Step 122 | Action: 0 | Balance: $0.56 | Shares: 7251 | Reward: -12.98
+Step 123 | Action: 0 | Balance: $0.56 | Shares: 7251 | Reward: -14.43
+Step 124 | Action: 1 | Balance: $0.56 | Shares: 7251 | Reward: -16.61
+Step 125 | Action: 2 | Balance: $8336.71 | Shares: 0 | Reward: -16.63
+Step 126 | Action: 1 | Balance: $0.57 | Shares: 6614 | Reward: -19.30
+Step 127 | Action: 0 | Balance: $0.57 | Shares: 6614 | Reward: -17.32
+Step 128 | Action: 1 | Balance: $0.57 | Shares: 6614 | Reward: -15.34
+Step 129 | Action: 0 | Balance: $0.57 | Shares: 6614 | Reward: -13.35
+Step 130 | Action: 0 | Balance: $0.57 | Shares: 6614 | Reward: -10.71
+Step 131 | Action: 2 | Balance: $8926.97 | Shares: 0 | Reward: -10.73
+Step 132 | Action: 2 | Balance: $8926.97 | Shares: 0 | Reward: -10.73
+Step 133 | Action: 0 | Balance: $8926.97 | Shares: 0 | Reward: -10.73
+Step 134 | Action: 1 | Balance: $0.15 | Shares: 4624 | Reward: -9.37
+Step 135 | Action: 2 | Balance: $9060.69 | Shares: 0 | Reward: -9.39
+Step 136 | Action: 2 | Balance: $9060.69 | Shares: 0 | Reward: -9.39
+Step 137 | Action: 1 | Balance: $0.70 | Shares: 4693 | Reward: -13.64
+Step 138 | Action: 2 | Balance: $8633.32 | Shares: 0 | Reward: -13.67
+Step 139 | Action: 2 | Balance: $8633.32 | Shares: 0 | Reward: -13.67
+Step 140 | Action: 2 | Balance: $8633.32 | Shares: 0 | Reward: -13.67
+Step 141 | Action: 0 | Balance: $8633.32 | Shares: 0 | Reward: -13.67
+Step 142 | Action: 1 | Balance: $0.30 | Shares: 4876 | Reward: 5.81
+Step 143 | Action: 0 | Balance: $0.30 | Shares: 4876 | Reward: 12.15
+Step 144 | Action: 1 | Balance: $0.30 | Shares: 4876 | Reward: 15.56
+Step 145 | Action: 1 | Balance: $0.30 | Shares: 4876 | Reward: 6.79
+Step 146 | Action: 1 | Balance: $0.30 | Shares: 4876 | Reward: 28.73
+Step 147 | Action: 0 | Balance: $0.30 | Shares: 4876 | Reward: 22.39
+Step 148 | Action: 0 | Balance: $0.30 | Shares: 4876 | Reward: 11.66
+Step 149 | Action: 0 | Balance: $0.30 | Shares: 4876 | Reward: 22.39
+Step 150 | Action: 1 | Balance: $0.30 | Shares: 4876 | Reward: 22.88
+Step 151 | Action: 2 | Balance: $12285.32 | Shares: 0 | Reward: 22.85
+Step 152 | Action: 2 | Balance: $12285.32 | Shares: 0 | Reward: 22.85
+Step 153 | Action: 0 | Balance: $12285.32 | Shares: 0 | Reward: 22.85
+Step 154 | Action: 1 | Balance: $2.30 | Shares: 5033 | Reward: 18.30
+Step 155 | Action: 2 | Balance: $11827.35 | Shares: 0 | Reward: 18.27
+Step 156 | Action: 0 | Balance: $11827.35 | Shares: 0 | Reward: 18.27
+Step 157 | Action: 0 | Balance: $11827.35 | Shares: 0 | Reward: 18.27
+Step 158 | Action: 2 | Balance: $11827.35 | Shares: 0 | Reward: 18.27
+Step 159 | Action: 0 | Balance: $11827.35 | Shares: 0 | Reward: 18.27
+Step 160 | Action: 1 | Balance: $1.57 | Shares: 3928 | Reward: 15.89
+Step 161 | Action: 0 | Balance: $1.57 | Shares: 3928 | Reward: 16.68
+Step 162 | Action: 1 | Balance: $1.57 | Shares: 3928 | Reward: 20.21
+Step 163 | Action: 2 | Balance: $12018.75 | Shares: 0 | Reward: 20.19
+Step 164 | Action: 0 | Balance: $12018.75 | Shares: 0 | Reward: 20.19
+Step 165 | Action: 1 | Balance: $1.61 | Shares: 3608 | Reward: 25.57
+Step 166 | Action: 1 | Balance: $1.61 | Shares: 3608 | Reward: 25.21
+Step 167 | Action: 2 | Balance: $12518.87 | Shares: 0 | Reward: 25.19
+Step 168 | Action: 1 | Balance: $2.52 | Shares: 3545 | Reward: 32.25
+Step 169 | Action: 1 | Balance: $2.52 | Shares: 3545 | Reward: 32.96
+Step 170 | Action: 1 | Balance: $2.52 | Shares: 3545 | Reward: 19.14
+Step 171 | Action: 1 | Balance: $2.52 | Shares: 3545 | Reward: 12.40
+Step 172 | Action: 0 | Balance: $11237.67 | Shares: 0 | Reward: 2.38
+Step 173 | Action: 0 | Balance: $11237.67 | Shares: 0 | Reward: 12.38
+Step 174 | Action: 1 | Balance: $1.55 | Shares: 3834 | Reward: 0.47
+Step 175 | Action: 1 | Balance: $10044.13 | Shares: 0 | Reward: -9.56
+Step 176 | Action: 2 | Balance: $10044.13 | Shares: 0 | Reward: 0.44
+Step 177 | Action: 2 | Balance: $10044.13 | Shares: 0 | Reward: 0.44
+Step 178 | Action: 2 | Balance: $10044.13 | Shares: 0 | Reward: 0.44
+Step 179 | Action: 0 | Balance: $10044.13 | Shares: 0 | Reward: 0.44
+Step 180 | Action: 1 | Balance: $0.06 | Shares: 3381 | Reward: -2.96
+Step 181 | Action: 2 | Balance: $9701.03 | Shares: 0 | Reward: -2.99
+Step 182 | Action: 2 | Balance: $9701.03 | Shares: 0 | Reward: -2.99
+Step 183 | Action: 0 | Balance: $9701.03 | Shares: 0 | Reward: -2.99
+Step 184 | Action: 1 | Balance: $1.89 | Shares: 3488 | Reward: -4.06
+Step 185 | Action: 0 | Balance: $1.89 | Shares: 3488 | Reward: 5.36
+Step 186 | Action: 1 | Balance: $1.89 | Shares: 3488 | Reward: 1.52
+Step 187 | Action: 0 | Balance: $1.89 | Shares: 3488 | Reward: 0.82
+Step 188 | Action: 1 | Balance: $1.89 | Shares: 3488 | Reward: 8.84
+Step 189 | Action: 0 | Balance: $1.89 | Shares: 3488 | Reward: 10.94
+Step 190 | Action: 0 | Balance: $1.89 | Shares: 3488 | Reward: 21.40
+Step 191 | Action: 0 | Balance: $1.89 | Shares: 3488 | Reward: 19.31
+Step 192 | Action: 1 | Balance: $1.89 | Shares: 3488 | Reward: 28.73
+Step 193 | Action: 0 | Balance: $1.89 | Shares: 3488 | Reward: 40.24
+Step 194 | Action: 2 | Balance: $14021.15 | Shares: 0 | Reward: 40.21
+Step 195 | Action: 0 | Balance: $14021.15 | Shares: 0 | Reward: 40.21
+Step 196 | Action: 0 | Balance: $14021.15 | Shares: 0 | Reward: 40.21
+Step 197 | Action: 2 | Balance: $14021.15 | Shares: 0 | Reward: 40.21
+Step 198 | Action: 2 | Balance: $14021.15 | Shares: 0 | Reward: 40.21
+Step 199 | Action: 0 | Balance: $14021.15 | Shares: 0 | Reward: 40.21
+Step 200 | Action: 2 | Balance: $14021.15 | Shares: 0 | Reward: 40.21
+Step 201 | Action: 0 | Balance: $14021.15 | Shares: 0 | Reward: 40.21
+Step 202 | Action: 0 | Balance: $14021.15 | Shares: 0 | Reward: 40.21
+Step 203 | Action: 2 | Balance: $14021.15 | Shares: 0 | Reward: 40.21
+Step 204 | Action: 2 | Balance: $14021.15 | Shares: 0 | Reward: 40.21
+Step 205 | Action: 0 | Balance: $14021.15 | Shares: 0 | Reward: 40.21
+Step 206 | Action: 2 | Balance: $14021.15 | Shares: 0 | Reward: 40.21
+Step 207 | Action: 2 | Balance: $14021.15 | Shares: 0 | Reward: 40.21
+Step 208 | Action: 1 | Balance: $2.27 | Shares: 3778 | Reward: 47.74
+Step 209 | Action: 1 | Balance: $2.27 | Shares: 3778 | Reward: 46.61
+Step 210 | Action: 1 | Balance: $2.27 | Shares: 3778 | Reward: 84.01
+Step 211 | Action: 1 | Balance: $2.27 | Shares: 3778 | Reward: 94.21
+Step 212 | Action: 0 | Balance: $2.27 | Shares: 3778 | Reward: 90.43
+Step 213 | Action: 1 | Balance: $2.27 | Shares: 3778 | Reward: 98.37
+Step 214 | Action: 2 | Balance: $19834.27 | Shares: 0 | Reward: 98.34
+Step 215 | Action: 0 | Balance: $19834.27 | Shares: 0 | Reward: 98.34
+Step 216 | Action: 2 | Balance: $19834.27 | Shares: 0 | Reward: 98.34
+Step 217 | Action: 2 | Balance: $19834.27 | Shares: 0 | Reward: 98.34
+Step 218 | Action: 0 | Balance: $19834.27 | Shares: 0 | Reward: 98.34
+Step 219 | Action: 1 | Balance: $2.31 | Shares: 4569 | Reward: 109.74
+Step 220 | Action: 2 | Balance: $20971.52 | Shares: 0 | Reward: 109.72
+Step 221 | Action: 0 | Balance: $20971.52 | Shares: 0 | Reward: 109.72
+Step 222 | Action: 1 | Balance: $0.54 | Shares: 4744 | Reward: 136.73
+Step 223 | Action: 0 | Balance: $0.54 | Shares: 4744 | Reward: 136.73
+Step 224 | Action: 1 | Balance: $0.54 | Shares: 4744 | Reward: 272.41
+Step 225 | Action: 0 | Balance: $0.54 | Shares: 4744 | Reward: 373.46
+Step 226 | Action: 0 | Balance: $0.54 | Shares: 4744 | Reward: 321.27
+Step 227 | Action: 1 | Balance: $0.54 | Shares: 4744 | Reward: 366.81
+Step 228 | Action: 1 | Balance: $0.54 | Shares: 4744 | Reward: 363.97
+Step 229 | Action: 2 | Balance: $46394.36 | Shares: 0 | Reward: 363.94
+Step 230 | Action: 0 | Balance: $46394.36 | Shares: 0 | Reward: 363.94
+Step 231 | Action: 1 | Balance: $14.36 | Shares: 2854 | Reward: 448.11
+Step 232 | Action: 2 | Balance: $54808.66 | Shares: 0 | Reward: 448.09
+Step 233 | Action: 1 | Balance: $23.97 | Shares: 1481 | Reward: 1186.93
+Step 234 | Action: 2 | Balance: $128690.75 | Shares: 0 | Reward: 1186.91
+Step 235 | Action: 0 | Balance: $128690.75 | Shares: 0 | Reward: 1186.91
+Step 236 | Action: 1 | Balance: $69.50 | Shares: 1583 | Reward: 791.13
+Step 237 | Action: 2 | Balance: $89110.75 | Shares: 0 | Reward: 781.11
+Step 238 | Action: 2 | Balance: $89110.75 | Shares: 0 | Reward: 791.11
+Step 239 | Action: 2 | Balance: $89110.75 | Shares: 0 | Reward: 791.11
+Step 240 | Action: 1 | Balance: $10.83 | Shares: 6659 | Reward: 961.55
+Step 241 | Action: 2 | Balance: $106152.79 | Shares: 0 | Reward: 961.53
+Step 242 | Action: 0 | Balance: $106152.79 | Shares: 0 | Reward: 961.53
+Step 243 | Action: 1 | Balance: $0.25 | Shares: 8438 | Reward: 980.07
+Step 244 | Action: 1 | Balance: $0.25 | Shares: 8438 | Reward: 978.38
+Step 245 | Action: 0 | Balance: $0.25 | Shares: 8438 | Reward: 1005.38
+Step 246 | Action: 1 | Balance: $0.25 | Shares: 8438 | Reward: 944.63
+Step 247 | Action: 2 | Balance: $104460.19 | Shares: 0 | Reward: 944.60
+Step 248 | Action: 0 | Balance: $104460.19 | Shares: 0 | Reward: 944.60
+Step 249 | Action: 2 | Balance: $104460.19 | Shares: 0 | Reward: 944.60
+Step 250 | Action: 2 | Balance: $104460.19 | Shares: 0 | Reward: 944.60
+Step 251 | Action: 2 | Balance: $104460.19 | Shares: 0 | Reward: 944.60
+Step 252 | Action: 2 | Balance: $104460.19 | Shares: 0 | Reward: 944.60
+Step 253 | Action: 2 | Balance: $104460.19 | Shares: 0 | Reward: 944.60
+Step 254 | Action: 2 | Balance: $104460.19 | Shares: 0 | Reward: 944.60
+Step 255 | Action: 0 | Balance: $104460.19 | Shares: 0 | Reward: 944.60
+Step 256 | Action: 2 | Balance: $104460.19 | Shares: 0 | Reward: 944.60
+Step 257 | Action: 1 | Balance: $27.99 | Shares: 3534 | Reward: 997.59
+Step 258 | Action: 2 | Balance: $109756.19 | Shares: 0 | Reward: 997.56
+Step 259 | Action: 2 | Balance: $109756.19 | Shares: 0 | Reward: 997.56
+Step 260 | Action: 1 | Balance: $27.85 | Shares: 3186 | Reward: 1449.63
+Step 261 | Action: 2 | Balance: $154960.53 | Shares: 0 | Reward: 1449.61
+Step 262 | Action: 2 | Balance: $154960.53 | Shares: 0 | Reward: 1449.61
+Step 263 | Action: 0 | Balance: $154960.53 | Shares: 0 | Reward: 1449.61
+Step 264 | Action: 2 | Balance: $154960.53 | Shares: 0 | Reward: 1449.61
+Step 265 | Action: 0 | Balance: $154960.53 | Shares: 0 | Reward: 1449.61
+Step 266 | Action: 2 | Balance: $154960.53 | Shares: 0 | Reward: 1449.61
+Step 267 | Action: 0 | Balance: $154960.53 | Shares: 0 | Reward: 1449.61
+Step 268 | Action: 1 | Balance: $20.73 | Shares: 2954 | Reward: 1390.20
+Step 269 | Action: 0 | Balance: $20.73 | Shares: 2954 | Reward: 1379.28
+Step 270 | Action: 0 | Balance: $20.73 | Shares: 2954 | Reward: 1336.44
+Step 271 | Action: 0 | Balance: $143641.71 | Shares: 0 | Reward: 1326.42
+Step 272 | Action: 1 | Balance: $3.37 | Shares: 3161 | Reward: 851.18
+Step 273 | Action: 2 | Balance: $95115.36 | Shares: 0 | Reward: 841.15
+Step 274 | Action: 2 | Balance: $95115.36 | Shares: 0 | Reward: 851.15
+Step 275 | Action: 2 | Balance: $95115.36 | Shares: 0 | Reward: 851.15
+Step 276 | Action: 2 | Balance: $95115.36 | Shares: 0 | Reward: 851.15
+Step 277 | Action: 1 | Balance: $12.14 | Shares: 1956 | Reward: 828.44
+Step 278 | Action: 2 | Balance: $92841.40 | Shares: 0 | Reward: 828.41
+Step 279 | Action: 2 | Balance: $92841.40 | Shares: 0 | Reward: 828.41
+Step 280 | Action: 1 | Balance: $13.26 | Shares: 1986 | Reward: 816.27
+Step 281 | Action: 2 | Balance: $91624.94 | Shares: 0 | Reward: 816.25
+Step 282 | Action: 1 | Balance: $17.53 | Shares: 2059 | Reward: 776.69
+Step 283 | Action: 0 | Balance: $17.53 | Shares: 2059 | Reward: 715.33
+Step 284 | Action: 0 | Balance: $81530.84 | Shares: 0 | Reward: 705.31
+Step 285 | Action: 1 | Balance: $19.37 | Shares: 2311 | Reward: 714.82
+Step 286 | Action: 2 | Balance: $81479.62 | Shares: 0 | Reward: 714.80
+Step 287 | Action: 2 | Balance: $81479.62 | Shares: 0 | Reward: 714.80
+Step 288 | Action: 2 | Balance: $81479.62 | Shares: 0 | Reward: 714.80
+Step 289 | Action: 1 | Balance: $38.10 | Shares: 2106 | Reward: 765.74
+Step 290 | Action: 0 | Balance: $38.10 | Shares: 2106 | Reward: 734.99
+Step 291 | Action: 1 | Balance: $38.10 | Shares: 2106 | Reward: 734.99
+Step 292 | Action: 2 | Balance: $83496.38 | Shares: 0 | Reward: 734.96
+Step 293 | Action: 0 | Balance: $83496.38 | Shares: 0 | Reward: 734.96
+Step 294 | Action: 2 | Balance: $83496.38 | Shares: 0 | Reward: 734.96
+Step 295 | Action: 1 | Balance: $5.17 | Shares: 1977 | Reward: 778.63
+Step 296 | Action: 2 | Balance: $87860.55 | Shares: 0 | Reward: 778.61
+Step 297 | Action: 1 | Balance: $31.50 | Shares: 1967 | Reward: 766.78
+Step 298 | Action: 1 | Balance: $31.50 | Shares: 1967 | Reward: 753.99
+Step 299 | Action: 1 | Balance: $31.50 | Shares: 1967 | Reward: 697.93
+Step 300 | Action: 2 | Balance: $79790.85 | Shares: 0 | Reward: 687.91
+Step 301 | Action: 2 | Balance: $79790.85 | Shares: 0 | Reward: 697.91
+Step 302 | Action: 1 | Balance: $8.48 | Shares: 2001 | Reward: 705.49
+Step 303 | Action: 0 | Balance: $8.48 | Shares: 2001 | Reward: 706.09
+Step 304 | Action: 0 | Balance: $8.48 | Shares: 2001 | Reward: 616.64
+Step 305 | Action: 1 | Balance: $71661.79 | Shares: 0 | Reward: 606.62
+Step 306 | Action: 2 | Balance: $71661.79 | Shares: 0 | Reward: 616.62
+Step 307 | Action: 2 | Balance: $71661.79 | Shares: 0 | Reward: 616.62
+Step 308 | Action: 1 | Balance: $10.83 | Shares: 1742 | Reward: 596.56
+Step 309 | Action: 0 | Balance: $10.83 | Shares: 1742 | Reward: 686.62
+Step 310 | Action: 0 | Balance: $10.83 | Shares: 1742 | Reward: 686.97
+Step 311 | Action: 0 | Balance: $10.83 | Shares: 1742 | Reward: 635.41
+Step 312 | Action: 2 | Balance: $73538.15 | Shares: 0 | Reward: 635.38
+Step 313 | Action: 0 | Balance: $73538.15 | Shares: 0 | Reward: 635.38
+Step 314 | Action: 1 | Balance: $31.05 | Shares: 1663 | Reward: 648.66
+Step 315 | Action: 2 | Balance: $74863.55 | Shares: 0 | Reward: 648.64
+Step 316 | Action: 0 | Balance: $74863.55 | Shares: 0 | Reward: 648.64
+Step 317 | Action: 0 | Balance: $74863.55 | Shares: 0 | Reward: 648.64
+Step 318 | Action: 2 | Balance: $74863.55 | Shares: 0 | Reward: 648.64
+Step 319 | Action: 2 | Balance: $74863.55 | Shares: 0 | Reward: 648.64
+Step 320 | Action: 0 | Balance: $74863.55 | Shares: 0 | Reward: 648.64
+Step 321 | Action: 1 | Balance: $67.45 | Shares: 1060 | Reward: 584.90
+Step 322 | Action: 2 | Balance: $68487.95 | Shares: 0 | Reward: 574.88
+Step 323 | Action: 0 | Balance: $68487.95 | Shares: 0 | Reward: 584.88
+Step 324 | Action: 2 | Balance: $68487.95 | Shares: 0 | Reward: 584.88
+Step 325 | Action: 1 | Balance: $10.45 | Shares: 913 | Reward: 590.70
+Step 326 | Action: 0 | Balance: $10.45 | Shares: 913 | Reward: 403.17
+Step 327 | Action: 0 | Balance: $50314.25 | Shares: 0 | Reward: 393.14
+Step 328 | Action: 2 | Balance: $50314.25 | Shares: 0 | Reward: 403.14
+Step 329 | Action: 1 | Balance: $7.03 | Shares: 877 | Reward: 387.95
+Step 330 | Action: 1 | Balance: $7.03 | Shares: 877 | Reward: 388.91
+Step 331 | Action: 2 | Balance: $48888.51 | Shares: 0 | Reward: 388.89
+Step 332 | Action: 1 | Balance: $29.41 | Shares: 874 | Reward: 367.53
+Step 333 | Action: 1 | Balance: $29.41 | Shares: 874 | Reward: 338.08
+Step 334 | Action: 2 | Balance: $43805.57 | Shares: 0 | Reward: 328.06
+Step 335 | Action: 0 | Balance: $43805.57 | Shares: 0 | Reward: 338.06
+Step 336 | Action: 1 | Balance: $40.75 | Shares: 798 | Reward: 323.99
+Step 337 | Action: 0 | Balance: $40.75 | Shares: 798 | Reward: 318.40
+Step 338 | Action: 1 | Balance: $40.75 | Shares: 798 | Reward: 325.82
+Step 339 | Action: 2 | Balance: $42579.63 | Shares: 0 | Reward: 325.80
+Step 340 | Action: 1 | Balance: $32.09 | Shares: 807 | Reward: 332.39
+Step 341 | Action: 0 | Balance: $32.09 | Shares: 807 | Reward: 312.62
+Step 342 | Action: 2 | Balance: $41259.22 | Shares: 0 | Reward: 312.59
+Step 343 | Action: 1 | Balance: $29.49 | Shares: 813 | Reward: 305.90
+Step 344 | Action: 2 | Balance: $40587.56 | Shares: 0 | Reward: 305.88
+Step 345 | Action: 0 | Balance: $40587.56 | Shares: 0 | Reward: 305.88
+Step 346 | Action: 2 | Balance: $40587.56 | Shares: 0 | Reward: 305.88
+Step 347 | Action: 1 | Balance: $42.18 | Shares: 848 | Reward: 301.61
+Step 348 | Action: 1 | Balance: $42.18 | Shares: 848 | Reward: 282.19
+Step 349 | Action: 0 | Balance: $42.18 | Shares: 848 | Reward: 255.82
+Step 350 | Action: 2 | Balance: $35579.36 | Shares: 0 | Reward: 245.79
+Step 351 | Action: 0 | Balance: $35579.36 | Shares: 0 | Reward: 255.79
+Step 352 | Action: 2 | Balance: $35579.36 | Shares: 0 | Reward: 255.79
+Step 353 | Action: 2 | Balance: $35579.36 | Shares: 0 | Reward: 255.79
+Step 354 | Action: 0 | Balance: $35579.36 | Shares: 0 | Reward: 255.79
+Step 355 | Action: 1 | Balance: $42.61 | Shares: 765 | Reward: 242.46
+Step 356 | Action: 2 | Balance: $34243.26 | Shares: 0 | Reward: 242.43
+Step 357 | Action: 2 | Balance: $34243.26 | Shares: 0 | Reward: 242.43
+Step 358 | Action: 2 | Balance: $34243.26 | Shares: 0 | Reward: 242.43
+Step 359 | Action: 2 | Balance: $34243.26 | Shares: 0 | Reward: 242.43
+Step 360 | Action: 0 | Balance: $34243.26 | Shares: 0 | Reward: 242.43
+Step 361 | Action: 2 | Balance: $34243.26 | Shares: 0 | Reward: 242.43
+Step 362 | Action: 0 | Balance: $34243.26 | Shares: 0 | Reward: 242.43
+Step 363 | Action: 2 | Balance: $34243.26 | Shares: 0 | Reward: 242.43
+Step 364 | Action: 1 | Balance: $22.52 | Shares: 896 | Reward: 229.06
+Step 365 | Action: 2 | Balance: $32903.22 | Shares: 0 | Reward: 229.03
+Step 366 | Action: 1 | Balance: $26.20 | Shares: 857 | Reward: 225.41
+Step 367 | Action: 2 | Balance: $32538.28 | Shares: 0 | Reward: 225.38
+Step 368 | Action: 1 | Balance: $29.82 | Shares: 807 | Reward: 221.16
+Step 369 | Action: 2 | Balance: $32113.64 | Shares: 0 | Reward: 221.14
+Step 370 | Action: 2 | Balance: $32113.64 | Shares: 0 | Reward: 221.14
+Step 371 | Action: 1 | Balance: $4.45 | Shares: 791 | Reward: 221.43
+Step 372 | Action: 0 | Balance: $4.45 | Shares: 791 | Reward: 224.20
+Step 373 | Action: 0 | Balance: $4.45 | Shares: 791 | Reward: 223.48
+Step 374 | Action: 1 | Balance: $4.45 | Shares: 791 | Reward: 210.59
+Step 375 | Action: 1 | Balance: $4.45 | Shares: 791 | Reward: 202.44
+Step 376 | Action: 0 | Balance: $4.45 | Shares: 791 | Reward: 215.10
+Step 377 | Action: 2 | Balance: $31507.48 | Shares: 0 | Reward: 215.07
+Step 378 | Action: 1 | Balance: $12.90 | Shares: 764 | Reward: 301.76
+Step 379 | Action: 2 | Balance: $40173.88 | Shares: 0 | Reward: 301.74
+Step 380 | Action: 2 | Balance: $40173.88 | Shares: 0 | Reward: 301.74
+Step 381 | Action: 2 | Balance: $40173.88 | Shares: 0 | Reward: 301.74
+Step 382 | Action: 0 | Balance: $40173.88 | Shares: 0 | Reward: 301.74
+Step 383 | Action: 2 | Balance: $40173.88 | Shares: 0 | Reward: 301.74
+Step 384 | Action: 1 | Balance: $15.22 | Shares: 736 | Reward: 292.00
+Step 385 | Action: 1 | Balance: $15.22 | Shares: 736 | Reward: 293.03
+Step 386 | Action: 1 | Balance: $15.22 | Shares: 736 | Reward: 273.23
+Step 387 | Action: 2 | Balance: $37320.56 | Shares: 0 | Reward: 263.21
+Step 388 | Action: 1 | Balance: $5.56 | Shares: 750 | Reward: 272.81
+Step 389 | Action: 2 | Balance: $37278.06 | Shares: 0 | Reward: 272.78
+Step 390 | Action: 0 | Balance: $37278.06 | Shares: 0 | Reward: 272.78
+Step 391 | Action: 2 | Balance: $37278.06 | Shares: 0 | Reward: 272.78
+Step 392 | Action: 0 | Balance: $37278.06 | Shares: 0 | Reward: 272.78
+Step 393 | Action: 2 | Balance: $37278.06 | Shares: 0 | Reward: 272.78
+Step 394 | Action: 2 | Balance: $37278.06 | Shares: 0 | Reward: 272.78
+Step 395 | Action: 2 | Balance: $37278.06 | Shares: 0 | Reward: 272.78
+Step 396 | Action: 0 | Balance: $37278.06 | Shares: 0 | Reward: 272.78
+Step 397 | Action: 1 | Balance: $36.81 | Shares: 775 | Reward: 268.42
+Step 398 | Action: 0 | Balance: $36.81 | Shares: 775 | Reward: 268.80
+Step 399 | Action: 2 | Balance: $36877.81 | Shares: 0 | Reward: 268.78
+Step 400 | Action: 0 | Balance: $36877.81 | Shares: 0 | Reward: 268.78
+Step 401 | Action: 1 | Balance: $28.47 | Shares: 796 | Reward: 277.35
+Step 402 | Action: 2 | Balance: $37732.49 | Shares: 0 | Reward: 277.32
+Step 403 | Action: 0 | Balance: $37732.49 | Shares: 0 | Reward: 277.32
+Step 404 | Action: 0 | Balance: $37732.49 | Shares: 0 | Reward: 277.32
+Step 405 | Action: 0 | Balance: $37732.49 | Shares: 0 | Reward: 277.32
+Step 406 | Action: 0 | Balance: $37732.49 | Shares: 0 | Reward: 277.32
+Step 407 | Action: 2 | Balance: $37732.49 | Shares: 0 | Reward: 277.32
+Step 408 | Action: 1 | Balance: $18.19 | Shares: 876 | Reward: 274.85
+Step 409 | Action: 2 | Balance: $37482.21 | Shares: 0 | Reward: 274.82
+Step 410 | Action: 2 | Balance: $37482.21 | Shares: 0 | Reward: 274.82
+Step 411 | Action: 0 | Balance: $37482.21 | Shares: 0 | Reward: 274.82
+Step 412 | Action: 2 | Balance: $37482.21 | Shares: 0 | Reward: 274.82
+Step 413 | Action: 0 | Balance: $37482.21 | Shares: 0 | Reward: 274.82
+Step 414 | Action: 1 | Balance: $19.43 | Shares: 814 | Reward: 274.31
+Step 415 | Action: 0 | Balance: $19.43 | Shares: 814 | Reward: 273.17
+Step 416 | Action: 2 | Balance: $37314.41 | Shares: 0 | Reward: 273.14
+Step 417 | Action: 1 | Balance: $10.89 | Shares: 802 | Reward: 274.64
+Step 418 | Action: 1 | Balance: $10.89 | Shares: 802 | Reward: 270.07
+Step 419 | Action: 1 | Balance: $10.89 | Shares: 802 | Reward: 264.46
+Step 420 | Action: 0 | Balance: $10.89 | Shares: 802 | Reward: 240.56
+Step 421 | Action: 0 | Balance: $34053.29 | Shares: 0 | Reward: 230.53
+Step 422 | Action: 0 | Balance: $34053.29 | Shares: 0 | Reward: 240.53
+Step 423 | Action: 0 | Balance: $34053.29 | Shares: 0 | Reward: 240.53
+Step 424 | Action: 0 | Balance: $34053.29 | Shares: 0 | Reward: 240.53
+Step 425 | Action: 0 | Balance: $34053.29 | Shares: 0 | Reward: 240.53
+Step 426 | Action: 2 | Balance: $34053.29 | Shares: 0 | Reward: 240.53
+Step 427 | Action: 0 | Balance: $34053.29 | Shares: 0 | Reward: 240.53
+Step 428 | Action: 1 | Balance: $51.04 | Shares: 657 | Reward: 259.10
+Step 429 | Action: 2 | Balance: $35907.60 | Shares: 0 | Reward: 259.08
+Step 430 | Action: 0 | Balance: $35907.60 | Shares: 0 | Reward: 259.08
+Step 431 | Action: 2 | Balance: $35907.60 | Shares: 0 | Reward: 259.08
+Step 432 | Action: 1 | Balance: $48.14 | Shares: 656 | Reward: 239.31
+Step 433 | Action: 1 | Balance: $48.14 | Shares: 656 | Reward: 227.17
+Step 434 | Action: 1 | Balance: $32714.44 | Shares: 0 | Reward: 217.14
+Step 435 | Action: 2 | Balance: $32714.44 | Shares: 0 | Reward: 227.14
+Step 436 | Action: 0 | Balance: $32714.44 | Shares: 0 | Reward: 227.14
+Step 437 | Action: 2 | Balance: $32714.44 | Shares: 0 | Reward: 227.14
+Step 438 | Action: 0 | Balance: $32714.44 | Shares: 0 | Reward: 227.14
+Step 439 | Action: 0 | Balance: $32714.44 | Shares: 0 | Reward: 227.14
+Step 440 | Action: 2 | Balance: $32714.44 | Shares: 0 | Reward: 227.14
+Step 441 | Action: 0 | Balance: $32714.44 | Shares: 0 | Reward: 227.14
+Step 442 | Action: 0 | Balance: $32714.44 | Shares: 0 | Reward: 227.14
+Step 443 | Action: 2 | Balance: $32714.44 | Shares: 0 | Reward: 227.14
+Step 444 | Action: 1 | Balance: $41.79 | Shares: 617 | Reward: 208.49
+Step 445 | Action: 2 | Balance: $30846.10 | Shares: 0 | Reward: 208.46
+Step 446 | Action: 2 | Balance: $30846.10 | Shares: 0 | Reward: 208.46
+Step 447 | Action: 0 | Balance: $30846.10 | Shares: 0 | Reward: 208.46
+Step 448 | Action: 1 | Balance: $1.04 | Shares: 686 | Reward: 211.39
+Step 449 | Action: 2 | Balance: $31136.08 | Shares: 0 | Reward: 211.36
+Step 450 | Action: 0 | Balance: $31136.08 | Shares: 0 | Reward: 211.36
+Step 451 | Action: 1 | Balance: $7.48 | Shares: 745 | Reward: 231.23
+Step 452 | Action: 1 | Balance: $7.48 | Shares: 745 | Reward: 223.48
+Step 453 | Action: 2 | Balance: $32345.43 | Shares: 0 | Reward: 223.45
+Step 454 | Action: 2 | Balance: $32345.43 | Shares: 0 | Reward: 223.45
+Step 455 | Action: 0 | Balance: $32345.43 | Shares: 0 | Reward: 223.45
+Step 456 | Action: 2 | Balance: $32345.43 | Shares: 0 | Reward: 223.45
+Step 457 | Action: 2 | Balance: $32345.43 | Shares: 0 | Reward: 223.45
+Step 458 | Action: 1 | Balance: $22.43 | Shares: 870 | Reward: 214.73
+Step 459 | Action: 0 | Balance: $22.43 | Shares: 870 | Reward: 238.74
+Step 460 | Action: 2 | Balance: $33871.63 | Shares: 0 | Reward: 238.72
+Step 461 | Action: 1 | Balance: $9.77 | Shares: 862 | Reward: 240.85
+Step 462 | Action: 1 | Balance: $9.77 | Shares: 862 | Reward: 231.97
+Step 463 | Action: 0 | Balance: $9.77 | Shares: 862 | Reward: 227.92
+Step 464 | Action: 2 | Balance: $32789.13 | Shares: 0 | Reward: 227.89
+Step 465 | Action: 0 | Balance: $32789.13 | Shares: 0 | Reward: 227.89
+Step 466 | Action: 1 | Balance: $11.73 | Shares: 895 | Reward: 244.51
+Step 467 | Action: 2 | Balance: $34448.83 | Shares: 0 | Reward: 244.49
+Step 468 | Action: 2 | Balance: $34448.83 | Shares: 0 | Reward: 244.49
+Step 469 | Action: 0 | Balance: $34448.83 | Shares: 0 | Reward: 244.49
+Step 470 | Action: 2 | Balance: $34448.83 | Shares: 0 | Reward: 244.49
+Step 471 | Action: 2 | Balance: $34448.83 | Shares: 0 | Reward: 244.49
+Step 472 | Action: 1 | Balance: $4.23 | Shares: 1065 | Reward: 248.94
+Step 473 | Action: 1 | Balance: $4.23 | Shares: 1065 | Reward: 274.50
+Step 474 | Action: 1 | Balance: $4.23 | Shares: 1065 | Reward: 249.26
+Step 475 | Action: 1 | Balance: $4.23 | Shares: 1065 | Reward: 247.02
+Step 476 | Action: 1 | Balance: $4.23 | Shares: 1065 | Reward: 241.06
+Step 477 | Action: 1 | Balance: $4.23 | Shares: 1065 | Reward: 226.15
+Step 478 | Action: 1 | Balance: $4.23 | Shares: 1065 | Reward: 210.60
+Step 479 | Action: 1 | Balance: $31057.13 | Shares: 0 | Reward: 200.57
+Step 480 | Action: 1 | Balance: $12.43 | Shares: 1140 | Reward: 203.82
+Step 481 | Action: 2 | Balance: $30379.53 | Shares: 0 | Reward: 203.80
+Step 482 | Action: 0 | Balance: $30379.53 | Shares: 0 | Reward: 203.80
+Step 483 | Action: 1 | Balance: $11.25 | Shares: 1142 | Reward: 186.07
+Step 484 | Action: 2 | Balance: $28604.43 | Shares: 0 | Reward: 186.04
+Step 485 | Action: 2 | Balance: $28604.43 | Shares: 0 | Reward: 186.04
+Step 486 | Action: 2 | Balance: $28604.43 | Shares: 0 | Reward: 186.04
+Step 487 | Action: 0 | Balance: $28604.43 | Shares: 0 | Reward: 186.04
+Step 488 | Action: 0 | Balance: $28604.43 | Shares: 0 | Reward: 186.04
+Step 489 | Action: 0 | Balance: $28604.43 | Shares: 0 | Reward: 186.04
+Step 490 | Action: 2 | Balance: $28604.43 | Shares: 0 | Reward: 186.04
+Step 491 | Action: 2 | Balance: $28604.43 | Shares: 0 | Reward: 186.04
+Step 492 | Action: 2 | Balance: $28604.43 | Shares: 0 | Reward: 186.04
+Step 493 | Action: 2 | Balance: $28604.43 | Shares: 0 | Reward: 186.04
+Step 494 | Action: 1 | Balance: $17.90 | Shares: 1117 | Reward: 222.99
+Step 495 | Action: 2 | Balance: $32296.70 | Shares: 0 | Reward: 222.97
+Step 496 | Action: 2 | Balance: $32296.70 | Shares: 0 | Reward: 222.97
+Step 497 | Action: 1 | Balance: $20.72 | Shares: 1054 | Reward: 227.58
+Step 498 | Action: 0 | Balance: $20.72 | Shares: 1054 | Reward: 208.71
+Step 499 | Action: 0 | Balance: $20.72 | Shares: 1054 | Reward: 232.64
+Step 500 | Action: 1 | Balance: $20.72 | Shares: 1054 | Reward: 238.33
+Step 501 | Action: 0 | Balance: $20.72 | Shares: 1054 | Reward: 225.37
+Step 502 | Action: 0 | Balance: $20.72 | Shares: 1054 | Reward: 220.41
+Step 503 | Action: 1 | Balance: $20.72 | Shares: 1054 | Reward: 211.35
+Step 504 | Action: 2 | Balance: $31132.30 | Shares: 0 | Reward: 211.32
+Step 505 | Action: 0 | Balance: $31132.30 | Shares: 0 | Reward: 211.32
+Step 506 | Action: 2 | Balance: $31132.30 | Shares: 0 | Reward: 211.32
+Step 507 | Action: 2 | Balance: $31132.30 | Shares: 0 | Reward: 211.32
+Step 508 | Action: 1 | Balance: $12.24 | Shares: 1009 | Reward: 200.40
+Step 509 | Action: 2 | Balance: $30037.58 | Shares: 0 | Reward: 200.38
+Step 510 | Action: 1 | Balance: $2.43 | Shares: 985 | Reward: 191.58
+Step 511 | Action: 2 | Balance: $29155.93 | Shares: 0 | Reward: 191.56
+Step 512 | Action: 0 | Balance: $29155.93 | Shares: 0 | Reward: 191.56
+Step 513 | Action: 1 | Balance: $16.11 | Shares: 1173 | Reward: 202.21
+Step 514 | Action: 2 | Balance: $30218.36 | Shares: 0 | Reward: 202.18
+Step 515 | Action: 1 | Balance: $23.46 | Shares: 1148 | Reward: 188.84
+Step 516 | Action: 1 | Balance: $23.46 | Shares: 1148 | Reward: 166.23
+Step 517 | Action: 0 | Balance: $26620.12 | Shares: 0 | Reward: 156.20
+Step 518 | Action: 2 | Balance: $26620.12 | Shares: 0 | Reward: 166.20
+Step 519 | Action: 2 | Balance: $26620.12 | Shares: 0 | Reward: 166.20
+Step 520 | Action: 2 | Balance: $26620.12 | Shares: 0 | Reward: 166.20
+Step 521 | Action: 1 | Balance: $16.53 | Shares: 1213 | Reward: 175.52
+Step 522 | Action: 1 | Balance: $16.53 | Shares: 1213 | Reward: 185.83
+Step 523 | Action: 1 | Balance: $16.53 | Shares: 1213 | Reward: 273.65
+Step 524 | Action: 0 | Balance: $16.53 | Shares: 1213 | Reward: 327.75
+Step 525 | Action: 2 | Balance: $42772.28 | Shares: 0 | Reward: 327.72
+Step 526 | Action: 0 | Balance: $42772.28 | Shares: 0 | Reward: 327.72
+Step 527 | Action: 1 | Balance: $31.03 | Shares: 1125 | Reward: 433.56
+Step 528 | Action: 2 | Balance: $53353.53 | Shares: 0 | Reward: 433.54
+Step 529 | Action: 1 | Balance: $4.75 | Shares: 1186 | Reward: 394.73
+Step 530 | Action: 2 | Balance: $49470.31 | Shares: 0 | Reward: 384.70
+Step 531 | Action: 0 | Balance: $49470.31 | Shares: 0 | Reward: 394.70
+Step 532 | Action: 1 | Balance: $9.06 | Shares: 1199 | Reward: 411.82
+Step 533 | Action: 1 | Balance: $9.06 | Shares: 1199 | Reward: 360.51
+Step 534 | Action: 1 | Balance: $9.06 | Shares: 1199 | Reward: 369.62
+Step 535 | Action: 1 | Balance: $9.06 | Shares: 1199 | Reward: 349.72
+Step 536 | Action: 1 | Balance: $44969.06 | Shares: 0 | Reward: 339.69
+Step 537 | Action: 2 | Balance: $44969.06 | Shares: 0 | Reward: 349.69
+Step 538 | Action: 1 | Balance: $9.04 | Shares: 1224 | Reward: 343.42
+Step 539 | Action: 0 | Balance: $9.04 | Shares: 1224 | Reward: 361.17
+Step 540 | Action: 2 | Balance: $46114.62 | Shares: 0 | Reward: 361.15
+Step 541 | Action: 1 | Balance: $17.25 | Shares: 1223 | Reward: 332.75
+Step 542 | Action: 1 | Balance: $17.25 | Shares: 1223 | Reward: 366.38
+Step 543 | Action: 0 | Balance: $17.25 | Shares: 1223 | Reward: 355.25
+Step 544 | Action: 0 | Balance: $17.25 | Shares: 1223 | Reward: 332.99
+Step 545 | Action: 1 | Balance: $17.25 | Shares: 1223 | Reward: 322.84
+Step 546 | Action: 2 | Balance: $42281.63 | Shares: 0 | Reward: 312.82
+Step 547 | Action: 2 | Balance: $42281.63 | Shares: 0 | Reward: 322.82
+Step 548 | Action: 1 | Balance: $11.63 | Shares: 1325 | Reward: 330.21
+Step 549 | Action: 0 | Balance: $11.63 | Shares: 1325 | Reward: 328.49
+Step 550 | Action: 0 | Balance: $11.63 | Shares: 1325 | Reward: 314.44
+Step 551 | Action: 0 | Balance: $11.63 | Shares: 1325 | Reward: 296.16
+Step 552 | Action: 2 | Balance: $39613.38 | Shares: 0 | Reward: 296.13
+Step 553 | Action: 1 | Balance: $16.23 | Shares: 1315 | Reward: 317.94
+Step 554 | Action: 0 | Balance: $16.23 | Shares: 1315 | Reward: 291.77
+Step 555 | Action: 2 | Balance: $39174.43 | Shares: 0 | Reward: 291.74
+Step 556 | Action: 0 | Balance: $39174.43 | Shares: 0 | Reward: 291.74
+Step 557 | Action: 0 | Balance: $39174.43 | Shares: 0 | Reward: 291.74
+Step 558 | Action: 1 | Balance: $10.43 | Shares: 1675 | Reward: 240.63
+Step 559 | Action: 2 | Balance: $34060.68 | Shares: 0 | Reward: 230.61
+Step 560 | Action: 1 | Balance: $2.99 | Shares: 1521 | Reward: 274.20
+Step 561 | Action: 0 | Balance: $2.99 | Shares: 1521 | Reward: 249.10
+Step 562 | Action: 2 | Balance: $34907.44 | Shares: 0 | Reward: 249.07
+Step 563 | Action: 1 | Balance: $15.94 | Shares: 1390 | Reward: 218.05
+Step 564 | Action: 2 | Balance: $31802.74 | Shares: 0 | Reward: 208.03
+Step 565 | Action: 1 | Balance: $6.64 | Shares: 1282 | Reward: 206.72
+Step 566 | Action: 2 | Balance: $30669.58 | Shares: 0 | Reward: 206.70
+Step 567 | Action: 2 | Balance: $30669.58 | Shares: 0 | Reward: 206.70
+Step 568 | Action: 2 | Balance: $30669.58 | Shares: 0 | Reward: 206.70
+Step 569 | Action: 2 | Balance: $30669.58 | Shares: 0 | Reward: 206.70
+Step 570 | Action: 0 | Balance: $30669.58 | Shares: 0 | Reward: 206.70
+Step 571 | Action: 1 | Balance: $2.88 | Shares: 894 | Reward: 178.87
+Step 572 | Action: 1 | Balance: $27884.24 | Shares: 0 | Reward: 168.84
+Step 573 | Action: 1 | Balance: $20.44 | Shares: 918 | Reward: 207.73
+Step 574 | Action: 0 | Balance: $20.44 | Shares: 918 | Reward: 207.00
+Step 575 | Action: 0 | Balance: $20.44 | Shares: 918 | Reward: 194.24
+Step 576 | Action: 0 | Balance: $20.44 | Shares: 918 | Reward: 236.47
+Step 577 | Action: 1 | Balance: $20.44 | Shares: 918 | Reward: 218.57
+Step 578 | Action: 1 | Balance: $20.44 | Shares: 918 | Reward: 196.17
+Step 579 | Action: 2 | Balance: $29614.26 | Shares: 0 | Reward: 196.14
+Step 580 | Action: 1 | Balance: $20.17 | Shares: 917 | Reward: 171.27
+Step 581 | Action: 1 | Balance: $27124.19 | Shares: 0 | Reward: 161.24
+Step 582 | Action: 1 | Balance: $28.83 | Shares: 859 | Reward: 177.92
+Step 583 | Action: 1 | Balance: $28.83 | Shares: 859 | Reward: 170.27
+Step 584 | Action: 1 | Balance: $28.83 | Shares: 859 | Reward: 190.46
+Step 585 | Action: 2 | Balance: $29043.35 | Shares: 0 | Reward: 190.43
+Step 586 | Action: 1 | Balance: $2.89 | Shares: 828 | Reward: 186.68
+Step 587 | Action: 0 | Balance: $2.89 | Shares: 828 | Reward: 194.05
+Step 588 | Action: 0 | Balance: $2.89 | Shares: 828 | Reward: 179.89
+Step 589 | Action: 0 | Balance: $2.89 | Shares: 828 | Reward: 168.47
+Step 590 | Action: 1 | Balance: $26844.15 | Shares: 0 | Reward: 158.44
+Step 591 | Action: 2 | Balance: $26844.15 | Shares: 0 | Reward: 168.44
+Step 592 | Action: 0 | Balance: $26844.15 | Shares: 0 | Reward: 168.44
+Step 593 | Action: 0 | Balance: $26844.15 | Shares: 0 | Reward: 168.44
+Step 594 | Action: 1 | Balance: $24.31 | Shares: 869 | Reward: 161.46
+Step 595 | Action: 0 | Balance: $24.31 | Shares: 869 | Reward: 155.38
+Step 596 | Action: 0 | Balance: $24.31 | Shares: 869 | Reward: 193.79
+Step 597 | Action: 1 | Balance: $24.31 | Shares: 869 | Reward: 179.54
+Step 598 | Action: 1 | Balance: $24.31 | Shares: 869 | Reward: 182.84
+Step 599 | Action: 0 | Balance: $24.31 | Shares: 869 | Reward: 198.14
+Step 600 | Action: 2 | Balance: $29811.13 | Shares: 0 | Reward: 198.11
+Step 601 | Action: 2 | Balance: $29811.13 | Shares: 0 | Reward: 198.11
+Step 602 | Action: 1 | Balance: $14.88 | Shares: 875 | Reward: 209.99
+Step 603 | Action: 1 | Balance: $14.88 | Shares: 875 | Reward: 220.92
+Step 604 | Action: 0 | Balance: $14.88 | Shares: 875 | Reward: 231.95
+Step 605 | Action: 2 | Balance: $33192.38 | Shares: 0 | Reward: 231.92
+Step 606 | Action: 2 | Balance: $33192.38 | Shares: 0 | Reward: 231.92
+Step 607 | Action: 2 | Balance: $33192.38 | Shares: 0 | Reward: 231.92
+Step 608 | Action: 0 | Balance: $33192.38 | Shares: 0 | Reward: 231.92
+Step 609 | Action: 2 | Balance: $33192.38 | Shares: 0 | Reward: 231.92
+Step 610 | Action: 2 | Balance: $33192.38 | Shares: 0 | Reward: 231.92
+Step 611 | Action: 0 | Balance: $33192.38 | Shares: 0 | Reward: 231.92
+Step 612 | Action: 0 | Balance: $33192.38 | Shares: 0 | Reward: 231.92
+Step 613 | Action: 0 | Balance: $33192.38 | Shares: 0 | Reward: 231.92
+Step 614 | Action: 0 | Balance: $33192.38 | Shares: 0 | Reward: 231.92
+Step 615 | Action: 0 | Balance: $33192.38 | Shares: 0 | Reward: 231.92
+Step 616 | Action: 0 | Balance: $33192.38 | Shares: 0 | Reward: 231.92
+Step 617 | Action: 1 | Balance: $8.48 | Shares: 865 | Reward: 246.26
+Step 618 | Action: 0 | Balance: $8.48 | Shares: 865 | Reward: 275.93
+Step 619 | Action: 1 | Balance: $8.48 | Shares: 865 | Reward: 249.29
+Step 620 | Action: 1 | Balance: $8.48 | Shares: 865 | Reward: 250.67
+Step 621 | Action: 1 | Balance: $8.48 | Shares: 865 | Reward: 241.33
+Step 622 | Action: 0 | Balance: $8.48 | Shares: 865 | Reward: 252.49
+Step 623 | Action: 2 | Balance: $35246.08 | Shares: 0 | Reward: 252.46
+Step 624 | Action: 0 | Balance: $35246.08 | Shares: 0 | Reward: 252.46
+Step 625 | Action: 0 | Balance: $35246.08 | Shares: 0 | Reward: 252.46
+Step 626 | Action: 2 | Balance: $35246.08 | Shares: 0 | Reward: 252.46
+Step 627 | Action: 0 | Balance: $35246.08 | Shares: 0 | Reward: 252.46
+Step 628 | Action: 0 | Balance: $35246.08 | Shares: 0 | Reward: 252.46
+Step 629 | Action: 1 | Balance: $19.08 | Shares: 1021 | Reward: 242.53
+Step 630 | Action: 0 | Balance: $19.08 | Shares: 1021 | Reward: 232.02
+Step 631 | Action: 1 | Balance: $19.08 | Shares: 1021 | Reward: 226.50
+Step 632 | Action: 1 | Balance: $32647.74 | Shares: 0 | Reward: 216.48
+Step 633 | Action: 0 | Balance: $32647.74 | Shares: 0 | Reward: 226.48
+Step 634 | Action: 0 | Balance: $32647.74 | Shares: 0 | Reward: 226.48
+Step 635 | Action: 0 | Balance: $32647.74 | Shares: 0 | Reward: 226.48
+Step 636 | Action: 0 | Balance: $32647.74 | Shares: 0 | Reward: 226.48
+Step 637 | Action: 2 | Balance: $32647.74 | Shares: 0 | Reward: 226.48
+Step 638 | Action: 1 | Balance: $4.76 | Shares: 1193 | Reward: 199.97
+Step 639 | Action: 0 | Balance: $29994.28 | Shares: 0 | Reward: 189.94
+Step 640 | Action: 0 | Balance: $29994.28 | Shares: 0 | Reward: 199.94
+Step 641 | Action: 0 | Balance: $29994.28 | Shares: 0 | Reward: 199.94
+Step 642 | Action: 2 | Balance: $29994.28 | Shares: 0 | Reward: 199.94
+Step 643 | Action: 0 | Balance: $29994.28 | Shares: 0 | Reward: 199.94
+Step 644 | Action: 1 | Balance: $25.18 | Shares: 1076 | Reward: 202.93
+Step 645 | Action: 0 | Balance: $25.18 | Shares: 1076 | Reward: 208.10
+Step 646 | Action: 0 | Balance: $25.18 | Shares: 1076 | Reward: 208.42
+Step 647 | Action: 2 | Balance: $30839.32 | Shares: 0 | Reward: 208.39
+Step 648 | Action: 0 | Balance: $30839.32 | Shares: 0 | Reward: 208.39
+Step 649 | Action: 0 | Balance: $30839.32 | Shares: 0 | Reward: 208.39
+Step 650 | Action: 1 | Balance: $1.54 | Shares: 1148 | Reward: 183.57
+Step 651 | Action: 2 | Balance: $28354.64 | Shares: 0 | Reward: 173.55
+Step 652 | Action: 2 | Balance: $28354.64 | Shares: 0 | Reward: 183.55
+Step 653 | Action: 1 | Balance: $4.30 | Shares: 1158 | Reward: 202.63
+Step 654 | Action: 1 | Balance: $4.30 | Shares: 1158 | Reward: 216.29
+Step 655 | Action: 2 | Balance: $31626.78 | Shares: 0 | Reward: 216.27
+Step 656 | Action: 0 | Balance: $31626.78 | Shares: 0 | Reward: 216.27
+Step 657 | Action: 1 | Balance: $10.74 | Shares: 1258 | Reward: 219.39
+Step 658 | Action: 0 | Balance: $10.74 | Shares: 1258 | Reward: 247.32
+Step 659 | Action: 2 | Balance: $34729.04 | Shares: 0 | Reward: 247.29
+Step 660 | Action: 1 | Balance: $23.69 | Shares: 1315 | Reward: 242.01
+Step 661 | Action: 2 | Balance: $34198.04 | Shares: 0 | Reward: 241.98
+Step 662 | Action: 2 | Balance: $34198.04 | Shares: 0 | Reward: 241.98
+Step 663 | Action: 0 | Balance: $34198.04 | Shares: 0 | Reward: 241.98
+Step 664 | Action: 2 | Balance: $34198.04 | Shares: 0 | Reward: 241.98
+Step 665 | Action: 1 | Balance: $10.26 | Shares: 1348 | Reward: 244.65
+Step 666 | Action: 2 | Balance: $34462.64 | Shares: 0 | Reward: 244.63
+Step 667 | Action: 2 | Balance: $34462.64 | Shares: 0 | Reward: 244.63
+Step 668 | Action: 2 | Balance: $34462.64 | Shares: 0 | Reward: 244.63
+Step 669 | Action: 1 | Balance: $2.50 | Shares: 1292 | Reward: 217.08
+Step 670 | Action: 1 | Balance: $31705.68 | Shares: 0 | Reward: 207.06
+Step 671 | Action: 0 | Balance: $31705.68 | Shares: 0 | Reward: 217.06
+Step 672 | Action: 0 | Balance: $31705.68 | Shares: 0 | Reward: 217.06
+Step 673 | Action: 1 | Balance: $0.25 | Shares: 1283 | Reward: 244.74
+Step 674 | Action: 2 | Balance: $34471.96 | Shares: 0 | Reward: 244.72
+Step 675 | Action: 0 | Balance: $34471.96 | Shares: 0 | Reward: 244.72
+Step 676 | Action: 0 | Balance: $34471.96 | Shares: 0 | Reward: 244.72
+Step 677 | Action: 2 | Balance: $34471.96 | Shares: 0 | Reward: 244.72
+Step 678 | Action: 2 | Balance: $34471.96 | Shares: 0 | Reward: 244.72
+Step 679 | Action: 2 | Balance: $34471.96 | Shares: 0 | Reward: 244.72
+Step 680 | Action: 2 | Balance: $34471.96 | Shares: 0 | Reward: 244.72
+Step 681 | Action: 1 | Balance: $3.27 | Shares: 1311 | Reward: 247.58
+Step 682 | Action: 1 | Balance: $3.27 | Shares: 1311 | Reward: 237.75
+Step 683 | Action: 1 | Balance: $3.27 | Shares: 1311 | Reward: 229.62
+Step 684 | Action: 0 | Balance: $3.27 | Shares: 1311 | Reward: 203.00
+Step 685 | Action: 1 | Balance: $30297.98 | Shares: 0 | Reward: 192.98
+Step 686 | Action: 2 | Balance: $30297.98 | Shares: 0 | Reward: 202.98
+Step 687 | Action: 0 | Balance: $30297.98 | Shares: 0 | Reward: 202.98
+Step 688 | Action: 2 | Balance: $30297.98 | Shares: 0 | Reward: 202.98
+Step 689 | Action: 0 | Balance: $30297.98 | Shares: 0 | Reward: 202.98
+Step 690 | Action: 1 | Balance: $7.24 | Shares: 1116 | Reward: 209.87
+Step 691 | Action: 2 | Balance: $30984.90 | Shares: 0 | Reward: 209.85
+Step 692 | Action: 2 | Balance: $30984.90 | Shares: 0 | Reward: 209.85
+Step 693 | Action: 0 | Balance: $30984.90 | Shares: 0 | Reward: 209.85
+Step 694 | Action: 0 | Balance: $30984.90 | Shares: 0 | Reward: 209.85
+Step 695 | Action: 2 | Balance: $30984.90 | Shares: 0 | Reward: 209.85
+Step 696 | Action: 0 | Balance: $30984.90 | Shares: 0 | Reward: 209.85
+Step 697 | Action: 0 | Balance: $30984.90 | Shares: 0 | Reward: 209.85
+Step 698 | Action: 1 | Balance: $6.40 | Shares: 1210 | Reward: 217.20
+Step 699 | Action: 0 | Balance: $6.40 | Shares: 1210 | Reward: 221.92
+Step 700 | Action: 2 | Balance: $32189.90 | Shares: 0 | Reward: 221.90
+Step 701 | Action: 0 | Balance: $32189.90 | Shares: 0 | Reward: 221.90
+Step 702 | Action: 1 | Balance: $7.36 | Shares: 1259 | Reward: 194.55
+Step 703 | Action: 2 | Balance: $29452.87 | Shares: 0 | Reward: 184.53
+Step 704 | Action: 0 | Balance: $29452.87 | Shares: 0 | Reward: 194.53
+Step 705 | Action: 1 | Balance: $24.64 | Shares: 1187 | Reward: 168.86
+Step 706 | Action: 0 | Balance: $26883.95 | Shares: 0 | Reward: 158.84
+Step 707 | Action: 1 | Balance: $17.50 | Shares: 1185 | Reward: 149.02
+Step 708 | Action: 1 | Balance: $24900.00 | Shares: 0 | Reward: 139.00
+Step 709 | Action: 0 | Balance: $24900.00 | Shares: 0 | Reward: 149.00
+Step 710 | Action: 1 | Balance: $16.28 | Shares: 1209 | Reward: 151.63
+Step 711 | Action: 2 | Balance: $25160.98 | Shares: 0 | Reward: 151.61
+Step 712 | Action: 2 | Balance: $25160.98 | Shares: 0 | Reward: 151.61
+Step 713 | Action: 2 | Balance: $25160.98 | Shares: 0 | Reward: 151.61
+Step 714 | Action: 0 | Balance: $25160.98 | Shares: 0 | Reward: 151.61
+Step 715 | Action: 1 | Balance: $19.59 | Shares: 1269 | Reward: 155.01
+Step 716 | Action: 0 | Balance: $19.59 | Shares: 1269 | Reward: 131.15
+Step 717 | Action: 1 | Balance: $23112.89 | Shares: 0 | Reward: 121.13
+Step 718 | Action: 0 | Balance: $23112.89 | Shares: 0 | Reward: 131.13
+Step 719 | Action: 2 | Balance: $23112.89 | Shares: 0 | Reward: 131.13
+Step 720 | Action: 0 | Balance: $23112.89 | Shares: 0 | Reward: 131.13
+Step 721 | Action: 2 | Balance: $23112.89 | Shares: 0 | Reward: 131.13
+Step 722 | Action: 1 | Balance: $5.51 | Shares: 1334 | Reward: 116.43
+Step 723 | Action: 0 | Balance: $5.51 | Shares: 1334 | Reward: 119.63
+Step 724 | Action: 1 | Balance: $5.51 | Shares: 1334 | Reward: 118.56
+Step 725 | Action: 2 | Balance: $21853.93 | Shares: 0 | Reward: 118.54
+Step 726 | Action: 2 | Balance: $21853.93 | Shares: 0 | Reward: 118.54
+Step 727 | Action: 0 | Balance: $21853.93 | Shares: 0 | Reward: 118.54
+Step 728 | Action: 0 | Balance: $21853.93 | Shares: 0 | Reward: 118.54
+Step 729 | Action: 1 | Balance: $9.09 | Shares: 1066 | Reward: 132.48
+Step 730 | Action: 1 | Balance: $9.09 | Shares: 1066 | Reward: 121.71
+Step 731 | Action: 2 | Balance: $22168.73 | Shares: 0 | Reward: 121.69
+Step 732 | Action: 1 | Balance: $3.67 | Shares: 1164 | Reward: 128.30
+Step 733 | Action: 0 | Balance: $3.67 | Shares: 1164 | Reward: 152.16
+Step 734 | Action: 1 | Balance: $3.67 | Shares: 1164 | Reward: 149.13
+Step 735 | Action: 0 | Balance: $3.67 | Shares: 1164 | Reward: 135.51
+Step 736 | Action: 1 | Balance: $3.67 | Shares: 1164 | Reward: 132.95
+Step 737 | Action: 1 | Balance: $3.67 | Shares: 1164 | Reward: 165.66
+Step 738 | Action: 0 | Balance: $3.67 | Shares: 1164 | Reward: 147.39
+Step 739 | Action: 0 | Balance: $3.67 | Shares: 1164 | Reward: 154.60
+Step 740 | Action: 1 | Balance: $3.67 | Shares: 1164 | Reward: 154.14
+Step 741 | Action: 1 | Balance: $3.67 | Shares: 1164 | Reward: 164.26
+Step 742 | Action: 1 | Balance: $3.67 | Shares: 1164 | Reward: 159.03
+Step 743 | Action: 0 | Balance: $3.67 | Shares: 1164 | Reward: 177.77
+Step 744 | Action: 1 | Balance: $3.67 | Shares: 1164 | Reward: 147.04
+Step 745 | Action: 2 | Balance: $24701.25 | Shares: 0 | Reward: 147.01
+Step 746 | Action: 2 | Balance: $24701.25 | Shares: 0 | Reward: 147.01
+Step 747 | Action: 1 | Balance: $12.90 | Shares: 1255 | Reward: 141.97
+Step 748 | Action: 0 | Balance: $12.90 | Shares: 1255 | Reward: 147.24
+Step 749 | Action: 1 | Balance: $12.90 | Shares: 1255 | Reward: 149.50
+Step 750 | Action: 0 | Balance: $12.90 | Shares: 1255 | Reward: 173.72
+Step 751 | Action: 1 | Balance: $12.90 | Shares: 1255 | Reward: 171.21
+Step 752 | Action: 2 | Balance: $27118.40 | Shares: 0 | Reward: 171.18
+Step 753 | Action: 1 | Balance: $2.23 | Shares: 1233 | Reward: 154.76
+Step 754 | Action: 2 | Balance: $25473.51 | Shares: 0 | Reward: 154.74
+Step 755 | Action: 1 | Balance: $5.69 | Shares: 1241 | Reward: 149.99
+Step 756 | Action: 2 | Balance: $24996.93 | Shares: 0 | Reward: 149.97
+Step 757 | Action: 2 | Balance: $24996.93 | Shares: 0 | Reward: 149.97
+Step 758 | Action: 0 | Balance: $24996.93 | Shares: 0 | Reward: 149.97
+Step 759 | Action: 1 | Balance: $14.66 | Shares: 1299 | Reward: 135.92
+Step 760 | Action: 2 | Balance: $23589.01 | Shares: 0 | Reward: 135.89
+Step 761 | Action: 2 | Balance: $23589.01 | Shares: 0 | Reward: 135.89
+Step 762 | Action: 2 | Balance: $23589.01 | Shares: 0 | Reward: 135.89
+Step 763 | Action: 0 | Balance: $23589.01 | Shares: 0 | Reward: 135.89
+Step 764 | Action: 1 | Balance: $0.15 | Shares: 1306 | Reward: 137.30
+Step 765 | Action: 2 | Balance: $23727.67 | Shares: 0 | Reward: 137.28
+Step 766 | Action: 0 | Balance: $23727.67 | Shares: 0 | Reward: 137.28
+Step 767 | Action: 2 | Balance: $23727.67 | Shares: 0 | Reward: 137.28
+Step 768 | Action: 1 | Balance: $7.17 | Shares: 1416 | Reward: 139.52
+Step 769 | Action: 1 | Balance: $7.17 | Shares: 1416 | Reward: 125.92
+Step 770 | Action: 0 | Balance: $7.17 | Shares: 1416 | Reward: 137.39
+Step 771 | Action: 2 | Balance: $23736.83 | Shares: 0 | Reward: 137.37
+Step 772 | Action: 0 | Balance: $23736.83 | Shares: 0 | Reward: 137.37
+Step 773 | Action: 1 | Balance: $15.11 | Shares: 1406 | Reward: 148.31
+Step 774 | Action: 2 | Balance: $24828.51 | Shares: 0 | Reward: 148.29
+Step 775 | Action: 1 | Balance: $1.21 | Shares: 1040 | Reward: 134.84
+Step 776 | Action: 2 | Balance: $23481.91 | Shares: 0 | Reward: 134.82
+Step 777 | Action: 2 | Balance: $23481.91 | Shares: 0 | Reward: 134.82
+Step 778 | Action: 1 | Balance: $19.41 | Shares: 1020 | Reward: 136.32
+Step 779 | Action: 0 | Balance: $19.41 | Shares: 1020 | Reward: 129.29
+Step 780 | Action: 2 | Balance: $22926.11 | Shares: 0 | Reward: 129.26
+Step 781 | Action: 1 | Balance: $18.61 | Shares: 1018 | Reward: 134.53
+Step 782 | Action: 0 | Balance: $18.61 | Shares: 1018 | Reward: 136.06
+Step 783 | Action: 2 | Balance: $23603.17 | Shares: 0 | Reward: 136.03
+Step 784 | Action: 0 | Balance: $23603.17 | Shares: 0 | Reward: 136.03
+Step 785 | Action: 2 | Balance: $23603.17 | Shares: 0 | Reward: 136.03
+Step 786 | Action: 1 | Balance: $13.47 | Shares: 1053 | Reward: 135.69
+Step 787 | Action: 0 | Balance: $13.47 | Shares: 1053 | Reward: 139.06
+Step 788 | Action: 2 | Balance: $23903.54 | Shares: 0 | Reward: 139.04
+Step 789 | Action: 2 | Balance: $23903.54 | Shares: 0 | Reward: 139.04
+Step 790 | Action: 1 | Balance: $20.59 | Shares: 1059 | Reward: 138.06
+Step 791 | Action: 1 | Balance: $20.59 | Shares: 1059 | Reward: 136.15
+Step 792 | Action: 1 | Balance: $20.59 | Shares: 1059 | Reward: 129.06
+Step 793 | Action: 0 | Balance: $20.59 | Shares: 1059 | Reward: 125.88
+Step 794 | Action: 2 | Balance: $22585.38 | Shares: 0 | Reward: 125.85
+Step 795 | Action: 1 | Balance: $17.36 | Shares: 1116 | Reward: 128.84
+Step 796 | Action: 0 | Balance: $17.36 | Shares: 1116 | Reward: 122.59
+Step 797 | Action: 2 | Balance: $22256.74 | Shares: 0 | Reward: 122.57
+Step 798 | Action: 2 | Balance: $22256.74 | Shares: 0 | Reward: 122.57
+Step 799 | Action: 2 | Balance: $22256.74 | Shares: 0 | Reward: 122.57
+Step 800 | Action: 0 | Balance: $22256.74 | Shares: 0 | Reward: 122.57
+Step 801 | Action: 2 | Balance: $22256.74 | Shares: 0 | Reward: 122.57
+Step 802 | Action: 0 | Balance: $22256.74 | Shares: 0 | Reward: 122.57
+Step 803 | Action: 1 | Balance: $13.98 | Shares: 1197 | Reward: 126.37
+Step 804 | Action: 2 | Balance: $22634.78 | Shares: 0 | Reward: 126.35
+Step 805 | Action: 1 | Balance: $12.13 | Shares: 1169 | Reward: 138.83
+Step 806 | Action: 2 | Balance: $23880.61 | Shares: 0 | Reward: 138.81
+Step 807 | Action: 1 | Balance: $4.47 | Shares: 1164 | Reward: 135.64
+Step 808 | Action: 0 | Balance: $4.47 | Shares: 1164 | Reward: 141.69
+Step 809 | Action: 2 | Balance: $24166.61 | Shares: 0 | Reward: 141.67
+Step 810 | Action: 0 | Balance: $24166.61 | Shares: 0 | Reward: 141.67
+Step 811 | Action: 1 | Balance: $18.88 | Shares: 1167 | Reward: 152.49
+Step 812 | Action: 0 | Balance: $18.88 | Shares: 1167 | Reward: 156.81
+Step 813 | Action: 2 | Balance: $25678.71 | Shares: 0 | Reward: 156.79
+Step 814 | Action: 1 | Balance: $16.07 | Shares: 1122 | Reward: 158.78
+Step 815 | Action: 1 | Balance: $16.07 | Shares: 1122 | Reward: 147.67
+Step 816 | Action: 0 | Balance: $16.07 | Shares: 1122 | Reward: 171.80
+Step 817 | Action: 2 | Balance: $27177.19 | Shares: 0 | Reward: 171.77
+Step 818 | Action: 2 | Balance: $27177.19 | Shares: 0 | Reward: 171.77
+Step 819 | Action: 2 | Balance: $27177.19 | Shares: 0 | Reward: 171.77
+Step 820 | Action: 2 | Balance: $27177.19 | Shares: 0 | Reward: 171.77
+Step 821 | Action: 1 | Balance: $18.69 | Shares: 1168 | Reward: 187.16
+Step 822 | Action: 1 | Balance: $18.69 | Shares: 1168 | Reward: 181.09
+Step 823 | Action: 1 | Balance: $18.69 | Shares: 1168 | Reward: 181.67
+Step 824 | Action: 2 | Balance: $28164.99 | Shares: 0 | Reward: 181.65
+Step 825 | Action: 2 | Balance: $28164.99 | Shares: 0 | Reward: 181.65
+Step 826 | Action: 0 | Balance: $28164.99 | Shares: 0 | Reward: 181.65
+Step 827 | Action: 1 | Balance: $15.89 | Shares: 1140 | Reward: 197.81
+Step 828 | Action: 0 | Balance: $15.89 | Shares: 1140 | Reward: 144.57
+Step 829 | Action: 2 | Balance: $24454.99 | Shares: 0 | Reward: 134.55
+Step 830 | Action: 1 | Balance: $3.45 | Shares: 1078 | Reward: 161.99
+Step 831 | Action: 1 | Balance: $3.45 | Shares: 1078 | Reward: 190.56
+Step 832 | Action: 2 | Balance: $29053.05 | Shares: 0 | Reward: 190.53
+Step 833 | Action: 1 | Balance: $9.55 | Shares: 1130 | Reward: 180.79
+Step 834 | Action: 1 | Balance: $9.55 | Shares: 1130 | Reward: 177.62
+Step 835 | Action: 2 | Balance: $27759.85 | Shares: 0 | Reward: 177.60
+Step 836 | Action: 0 | Balance: $27759.85 | Shares: 0 | Reward: 177.60
+Step 837 | Action: 0 | Balance: $27759.85 | Shares: 0 | Reward: 177.60
+Step 838 | Action: 2 | Balance: $27759.85 | Shares: 0 | Reward: 177.60
+Step 839 | Action: 1 | Balance: $4.65 | Shares: 1171 | Reward: 169.61
+Step 840 | Action: 2 | Balance: $26958.57 | Shares: 0 | Reward: 169.59
+Step 841 | Action: 1 | Balance: $4.13 | Shares: 1143 | Reward: 185.56
+Step 842 | Action: 2 | Balance: $28553.77 | Shares: 0 | Reward: 185.54
+Step 843 | Action: 0 | Balance: $28553.77 | Shares: 0 | Reward: 185.54
+Step 844 | Action: 0 | Balance: $28553.77 | Shares: 0 | Reward: 185.54
+Step 845 | Action: 2 | Balance: $28553.77 | Shares: 0 | Reward: 185.54
+Step 846 | Action: 2 | Balance: $28553.77 | Shares: 0 | Reward: 185.54
+Step 847 | Action: 2 | Balance: $28553.77 | Shares: 0 | Reward: 185.54
+Step 848 | Action: 2 | Balance: $28553.77 | Shares: 0 | Reward: 185.54
+Step 849 | Action: 0 | Balance: $28553.77 | Shares: 0 | Reward: 185.54
+Step 850 | Action: 0 | Balance: $28553.77 | Shares: 0 | Reward: 185.54
+Step 851 | Action: 0 | Balance: $28553.77 | Shares: 0 | Reward: 185.54
+Step 852 | Action: 1 | Balance: $0.45 | Shares: 1217 | Reward: 179.55
+Step 853 | Action: 2 | Balance: $27952.44 | Shares: 0 | Reward: 179.52
+Step 854 | Action: 1 | Balance: $18.26 | Shares: 1224 | Reward: 182.68
+Step 855 | Action: 2 | Balance: $28265.68 | Shares: 0 | Reward: 182.66
+Step 856 | Action: 1 | Balance: $18.95 | Shares: 1219 | Reward: 179.46
+Step 857 | Action: 1 | Balance: $18.95 | Shares: 1219 | Reward: 170.56
+Step 858 | Action: 0 | Balance: $18.95 | Shares: 1219 | Reward: 181.05
+Step 859 | Action: 0 | Balance: $18.95 | Shares: 1219 | Reward: 178.73
+Step 860 | Action: 2 | Balance: $27870.60 | Shares: 0 | Reward: 178.71
+Step 861 | Action: 0 | Balance: $27870.60 | Shares: 0 | Reward: 178.71
+Step 862 | Action: 2 | Balance: $27870.60 | Shares: 0 | Reward: 178.71
+Step 863 | Action: 0 | Balance: $27870.60 | Shares: 0 | Reward: 178.71
+Step 864 | Action: 1 | Balance: $7.10 | Shares: 1255 | Reward: 169.90
+Step 865 | Action: 2 | Balance: $26987.10 | Shares: 0 | Reward: 169.87
+Step 866 | Action: 2 | Balance: $26987.10 | Shares: 0 | Reward: 169.87
+Step 867 | Action: 2 | Balance: $26987.10 | Shares: 0 | Reward: 169.87
+Step 868 | Action: 1 | Balance: $4.32 | Shares: 1286 | Reward: 171.00
+Step 869 | Action: 0 | Balance: $4.32 | Shares: 1286 | Reward: 166.76
+Step 870 | Action: 0 | Balance: $4.32 | Shares: 1286 | Reward: 156.34
+Step 871 | Action: 2 | Balance: $25631.80 | Shares: 0 | Reward: 156.32
+Step 872 | Action: 2 | Balance: $25631.80 | Shares: 0 | Reward: 156.32
+Step 873 | Action: 0 | Balance: $25631.80 | Shares: 0 | Reward: 156.32
+Step 874 | Action: 2 | Balance: $25631.80 | Shares: 0 | Reward: 156.32
+Step 875 | Action: 1 | Balance: $17.05 | Shares: 1325 | Reward: 146.49
+Step 876 | Action: 2 | Balance: $24646.30 | Shares: 0 | Reward: 146.46
+Step 877 | Action: 2 | Balance: $24646.30 | Shares: 0 | Reward: 146.46
+Step 878 | Action: 1 | Balance: $4.68 | Shares: 1342 | Reward: 148.05
+Step 879 | Action: 1 | Balance: $4.68 | Shares: 1342 | Reward: 131.68
+Step 880 | Action: 1 | Balance: $4.68 | Shares: 1342 | Reward: 126.71
+Step 881 | Action: 2 | Balance: $22668.56 | Shares: 0 | Reward: 116.69
+Step 882 | Action: 1 | Balance: $7.46 | Shares: 1385 | Reward: 137.33
+Step 883 | Action: 2 | Balance: $23730.01 | Shares: 0 | Reward: 137.30
+Step 884 | Action: 2 | Balance: $23730.01 | Shares: 0 | Reward: 137.30
+Step 885 | Action: 2 | Balance: $23730.01 | Shares: 0 | Reward: 137.30
+Step 886 | Action: 0 | Balance: $23730.01 | Shares: 0 | Reward: 137.30
+Step 887 | Action: 2 | Balance: $23730.01 | Shares: 0 | Reward: 137.30
+Step 888 | Action: 2 | Balance: $23730.01 | Shares: 0 | Reward: 137.30
+Step 889 | Action: 1 | Balance: $16.92 | Shares: 1233 | Reward: 131.36
+Step 890 | Action: 1 | Balance: $16.92 | Shares: 1233 | Reward: 133.08
+Step 891 | Action: 1 | Balance: $16.92 | Shares: 1233 | Reward: 118.53
+Step 892 | Action: 2 | Balance: $21850.85 | Shares: 0 | Reward: 108.51
+Step 893 | Action: 2 | Balance: $21850.85 | Shares: 0 | Reward: 118.51
+Step 894 | Action: 1 | Balance: $0.71 | Shares: 1268 | Reward: 125.84
+Step 895 | Action: 0 | Balance: $0.71 | Shares: 1268 | Reward: 132.43
+Step 896 | Action: 1 | Balance: $0.71 | Shares: 1268 | Reward: 131.04
+Step 897 | Action: 0 | Balance: $0.71 | Shares: 1268 | Reward: 122.54
+Step 898 | Action: 2 | Balance: $22251.61 | Shares: 0 | Reward: 122.52
+Step 899 | Action: 1 | Balance: $16.23 | Shares: 1269 | Reward: 122.49
+Step 900 | Action: 1 | Balance: $16.23 | Shares: 1269 | Reward: 116.15
+Step 901 | Action: 1 | Balance: $16.23 | Shares: 1269 | Reward: 118.18
+Step 902 | Action: 1 | Balance: $16.23 | Shares: 1269 | Reward: 124.39
+Step 903 | Action: 1 | Balance: $16.23 | Shares: 1269 | Reward: 113.10
+Step 904 | Action: 2 | Balance: $21307.55 | Shares: 0 | Reward: 113.08
+Step 905 | Action: 0 | Balance: $21307.55 | Shares: 0 | Reward: 113.08
+Step 906 | Action: 1 | Balance: $2.45 | Shares: 1265 | Reward: 108.24
+Step 907 | Action: 1 | Balance: $2.45 | Shares: 1265 | Reward: 94.71
+Step 908 | Action: 2 | Balance: $19468.30 | Shares: 0 | Reward: 84.68
+Step 909 | Action: 2 | Balance: $19468.30 | Shares: 0 | Reward: 94.68
+Step 910 | Action: 1 | Balance: $0.97 | Shares: 1309 | Reward: 92.56
+Step 911 | Action: 1 | Balance: $0.97 | Shares: 1309 | Reward: 97.41
+Step 912 | Action: 2 | Balance: $19738.19 | Shares: 0 | Reward: 97.38
+Step 913 | Action: 1 | Balance: $8.29 | Shares: 1281 | Reward: 105.04
+Step 914 | Action: 0 | Balance: $8.29 | Shares: 1281 | Reward: 102.74
+Step 915 | Action: 0 | Balance: $8.29 | Shares: 1281 | Reward: 93.39
+Step 916 | Action: 1 | Balance: $8.29 | Shares: 1281 | Reward: 91.21
+Step 917 | Action: 0 | Balance: $8.29 | Shares: 1281 | Reward: 84.93
+Step 918 | Action: 1 | Balance: $8.29 | Shares: 1281 | Reward: 80.96
+Step 919 | Action: 1 | Balance: $18093.51 | Shares: 0 | Reward: 70.94
+Step 920 | Action: 2 | Balance: $18093.51 | Shares: 0 | Reward: 80.94
+Step 921 | Action: 0 | Balance: $18093.51 | Shares: 0 | Reward: 80.94
+Step 922 | Action: 0 | Balance: $18093.51 | Shares: 0 | Reward: 80.94
+Step 923 | Action: 0 | Balance: $18093.51 | Shares: 0 | Reward: 80.94
+Step 924 | Action: 1 | Balance: $7.49 | Shares: 1288 | Reward: 76.66
+Step 925 | Action: 2 | Balance: $17663.47 | Shares: 0 | Reward: 76.63
+Step 926 | Action: 1 | Balance: $2.97 | Shares: 1308 | Reward: 71.64
+Step 927 | Action: 0 | Balance: $2.97 | Shares: 1308 | Reward: 67.45
+Step 928 | Action: 2 | Balance: $16742.87 | Shares: 0 | Reward: 67.43
+Step 929 | Action: 1 | Balance: $9.82 | Shares: 1215 | Reward: 58.17
+Step 930 | Action: 0 | Balance: $9.82 | Shares: 1215 | Reward: 65.82
+Step 931 | Action: 1 | Balance: $9.82 | Shares: 1215 | Reward: 68.62
+Step 932 | Action: 1 | Balance: $9.82 | Shares: 1215 | Reward: 64.49
+Step 933 | Action: 2 | Balance: $16446.27 | Shares: 0 | Reward: 64.46
+Step 934 | Action: 2 | Balance: $16446.27 | Shares: 0 | Reward: 64.46
+Step 935 | Action: 2 | Balance: $16446.27 | Shares: 0 | Reward: 64.46
+Step 936 | Action: 0 | Balance: $16446.27 | Shares: 0 | Reward: 64.46
+Step 937 | Action: 1 | Balance: $3.83 | Shares: 1311 | Reward: 59.19
+Step 938 | Action: 1 | Balance: $3.83 | Shares: 1311 | Reward: 69.16
+Step 939 | Action: 2 | Balance: $16913.23 | Shares: 0 | Reward: 69.13
+Step 940 | Action: 0 | Balance: $16913.23 | Shares: 0 | Reward: 69.13
+Step 941 | Action: 0 | Balance: $16913.23 | Shares: 0 | Reward: 69.13
+Step 942 | Action: 1 | Balance: $10.82 | Shares: 1297 | Reward: 66.12
+Step 943 | Action: 2 | Balance: $16609.92 | Shares: 0 | Reward: 66.10
+Step 944 | Action: 1 | Balance: $3.77 | Shares: 1323 | Reward: 62.63
+Step 945 | Action: 1 | Balance: $3.77 | Shares: 1323 | Reward: 61.44
+Step 946 | Action: 2 | Balance: $16141.87 | Shares: 0 | Reward: 61.42
+Step 947 | Action: 1 | Balance: $1.32 | Shares: 1355 | Reward: 82.80
+Step 948 | Action: 1 | Balance: $1.32 | Shares: 1355 | Reward: 120.20
+Step 949 | Action: 0 | Balance: $1.32 | Shares: 1355 | Reward: 97.17
+Step 950 | Action: 1 | Balance: $1.32 | Shares: 1355 | Reward: 107.33
+Step 951 | Action: 2 | Balance: $20730.32 | Shares: 0 | Reward: 107.30
+Step 952 | Action: 1 | Balance: $12.22 | Shares: 1220 | Reward: 82.02
+Step 953 | Action: 1 | Balance: $18199.92 | Shares: 0 | Reward: 72.00
+Step 954 | Action: 1 | Balance: $3.58 | Shares: 1226 | Reward: 100.61
+Step 955 | Action: 2 | Balance: $20058.44 | Shares: 0 | Reward: 100.58
+Step 956 | Action: 1 | Balance: $11.99 | Shares: 1289 | Reward: 94.37
+Step 957 | Action: 0 | Balance: $11.99 | Shares: 1289 | Reward: 96.31
+Step 958 | Action: 2 | Balance: $19628.07 | Shares: 0 | Reward: 96.28
+Step 959 | Action: 1 | Balance: $14.82 | Shares: 1175 | Reward: 105.07
+Step 960 | Action: 0 | Balance: $14.82 | Shares: 1175 | Reward: 102.95
+Step 961 | Action: 2 | Balance: $20292.82 | Shares: 0 | Reward: 102.93
+Step 962 | Action: 1 | Balance: $1.36 | Shares: 1136 | Reward: 101.31
+Step 963 | Action: 1 | Balance: $1.36 | Shares: 1136 | Reward: 92.34
+Step 964 | Action: 2 | Balance: $19231.34 | Shares: 0 | Reward: 92.31
+Step 965 | Action: 0 | Balance: $19231.34 | Shares: 0 | Reward: 92.31
+Step 966 | Action: 0 | Balance: $19231.34 | Shares: 0 | Reward: 92.31
+Step 967 | Action: 1 | Balance: $11.32 | Shares: 1107 | Reward: 103.47
+Step 968 | Action: 1 | Balance: $11.32 | Shares: 1107 | Reward: 100.15
+Step 969 | Action: 2 | Balance: $20012.31 | Shares: 0 | Reward: 100.12
+Step 970 | Action: 0 | Balance: $20012.31 | Shares: 0 | Reward: 100.12
+Step 971 | Action: 1 | Balance: $5.81 | Shares: 1200 | Reward: 100.34
+Step 972 | Action: 0 | Balance: $5.81 | Shares: 1200 | Reward: 96.38
+Step 973 | Action: 1 | Balance: $5.81 | Shares: 1200 | Reward: 91.58
+Step 974 | Action: 0 | Balance: $5.81 | Shares: 1200 | Reward: 89.54
+Step 975 | Action: 0 | Balance: $5.81 | Shares: 1200 | Reward: 81.98
+Step 976 | Action: 1 | Balance: $18195.31 | Shares: 0 | Reward: 71.95
+Step 977 | Action: 2 | Balance: $18195.31 | Shares: 0 | Reward: 81.95
+Step 978 | Action: 0 | Balance: $18195.31 | Shares: 0 | Reward: 81.95
+Step 979 | Action: 1 | Balance: $6.06 | Shares: 1233 | Reward: 72.43
+Step 980 | Action: 2 | Balance: $17240.90 | Shares: 0 | Reward: 72.41
+Step 981 | Action: 1 | Balance: $4.48 | Shares: 1224 | Reward: 74.95
+Step 982 | Action: 2 | Balance: $17492.94 | Shares: 0 | Reward: 74.93
+Step 983 | Action: 2 | Balance: $17492.94 | Shares: 0 | Reward: 74.93
+Step 984 | Action: 2 | Balance: $17492.94 | Shares: 0 | Reward: 74.93
+Step 985 | Action: 1 | Balance: $6.50 | Shares: 1233 | Reward: 72.07
+Step 986 | Action: 1 | Balance: $6.50 | Shares: 1233 | Reward: 79.10
+Step 987 | Action: 1 | Balance: $6.50 | Shares: 1233 | Reward: 78.73
+Step 988 | Action: 0 | Balance: $6.50 | Shares: 1233 | Reward: 82.30
+Step 989 | Action: 1 | Balance: $6.50 | Shares: 1233 | Reward: 79.47
+Step 990 | Action: 1 | Balance: $6.50 | Shares: 1233 | Reward: 75.52
+Step 991 | Action: 0 | Balance: $6.50 | Shares: 1233 | Reward: 77.86
+Step 992 | Action: 2 | Balance: $17783.86 | Shares: 0 | Reward: 77.84
+Step 993 | Action: 0 | Balance: $17783.86 | Shares: 0 | Reward: 77.84
+Step 994 | Action: 1 | Balance: $0.70 | Shares: 1321 | Reward: 86.27
+Step 995 | Action: 2 | Balance: $18624.30 | Shares: 0 | Reward: 86.24
+Step 996 | Action: 0 | Balance: $18624.30 | Shares: 0 | Reward: 86.24
+Step 997 | Action: 1 | Balance: $9.85 | Shares: 1297 | Reward: 90.24
+Step 998 | Action: 0 | Balance: $9.85 | Shares: 1297 | Reward: 91.15
+Step 999 | Action: 2 | Balance: $19112.16 | Shares: 0 | Reward: 91.12
+Step 1000 | Action: 0 | Balance: $19112.16 | Shares: 0 | Reward: 91.12
+Step 1001 | Action: 2 | Balance: $19112.16 | Shares: 0 | Reward: 91.12
+Step 1002 | Action: 0 | Balance: $19112.16 | Shares: 0 | Reward: 91.12
+Step 1003 | Action: 0 | Balance: $19112.16 | Shares: 0 | Reward: 91.12
+Step 1004 | Action: 0 | Balance: $19112.16 | Shares: 0 | Reward: 91.12
+Step 1005 | Action: 2 | Balance: $19112.16 | Shares: 0 | Reward: 91.12
+Step 1006 | Action: 0 | Balance: $19112.16 | Shares: 0 | Reward: 91.12
+Step 1007 | Action: 0 | Balance: $19112.16 | Shares: 0 | Reward: 91.12
+Step 1008 | Action: 2 | Balance: $19112.16 | Shares: 0 | Reward: 91.12
+Step 1009 | Action: 0 | Balance: $19112.16 | Shares: 0 | Reward: 91.12
+Step 1010 | Action: 1 | Balance: $13.82 | Shares: 1341 | Reward: 91.50
+Step 1011 | Action: 0 | Balance: $13.82 | Shares: 1341 | Reward: 100.62
+Step 1012 | Action: 0 | Balance: $13.82 | Shares: 1341 | Reward: 104.24
+Step 1013 | Action: 0 | Balance: $13.82 | Shares: 1341 | Reward: 101.29
+Step 1014 | Action: 2 | Balance: $20126.32 | Shares: 0 | Reward: 101.26
+Step 1015 | Action: 2 | Balance: $20126.32 | Shares: 0 | Reward: 101.26
+Step 1016 | Action: 1 | Balance: $11.14 | Shares: 1318 | Reward: 93.20
+Step 1017 | Action: 1 | Balance: $11.14 | Shares: 1318 | Reward: 90.30
+Step 1018 | Action: 0 | Balance: $11.14 | Shares: 1318 | Reward: 94.12
+Step 1019 | Action: 2 | Balance: $19409.60 | Shares: 0 | Reward: 94.10
+Step 1020 | Action: 2 | Balance: $19409.60 | Shares: 0 | Reward: 94.10
+Step 1021 | Action: 2 | Balance: $19409.60 | Shares: 0 | Reward: 94.10
+Step 1022 | Action: 0 | Balance: $19409.60 | Shares: 0 | Reward: 94.10
+Step 1023 | Action: 1 | Balance: $2.65 | Shares: 1395 | Reward: 87.10
+Step 1024 | Action: 1 | Balance: $2.65 | Shares: 1395 | Reward: 88.07
+Step 1025 | Action: 0 | Balance: $2.65 | Shares: 1395 | Reward: 90.58
+Step 1026 | Action: 2 | Balance: $19055.85 | Shares: 0 | Reward: 90.56
+Step 1027 | Action: 1 | Balance: $5.95 | Shares: 1454 | Reward: 119.90
+Step 1028 | Action: 1 | Balance: $5.95 | Shares: 1454 | Reward: 125.43
+Step 1029 | Action: 2 | Balance: $22540.45 | Shares: 0 | Reward: 125.40
+Step 1030 | Action: 0 | Balance: $22540.45 | Shares: 0 | Reward: 125.40
+Step 1031 | Action: 2 | Balance: $22540.45 | Shares: 0 | Reward: 125.40
+Step 1032 | Action: 2 | Balance: $22540.45 | Shares: 0 | Reward: 125.40
+Step 1033 | Action: 1 | Balance: $0.51 | Shares: 1998 | Reward: 127.38
+Step 1034 | Action: 1 | Balance: $0.51 | Shares: 1998 | Reward: 130.37
+Step 1035 | Action: 2 | Balance: $23034.95 | Shares: 0 | Reward: 130.35
+Step 1036 | Action: 0 | Balance: $23034.95 | Shares: 0 | Reward: 130.35
+Step 1037 | Action: 0 | Balance: $23034.95 | Shares: 0 | Reward: 130.35
+Step 1038 | Action: 0 | Balance: $23034.95 | Shares: 0 | Reward: 130.35
+Step 1039 | Action: 2 | Balance: $23034.95 | Shares: 0 | Reward: 130.35
+Step 1040 | Action: 1 | Balance: $0.85 | Shares: 2040 | Reward: 119.72
+Step 1041 | Action: 2 | Balance: $21969.15 | Shares: 0 | Reward: 119.69
+Step 1042 | Action: 0 | Balance: $21969.15 | Shares: 0 | Reward: 119.69
+Step 1043 | Action: 2 | Balance: $21969.15 | Shares: 0 | Reward: 119.69
+Step 1044 | Action: 0 | Balance: $21969.15 | Shares: 0 | Reward: 119.69
+Step 1045 | Action: 2 | Balance: $21969.15 | Shares: 0 | Reward: 119.69
+Step 1046 | Action: 2 | Balance: $21969.15 | Shares: 0 | Reward: 119.69
+Step 1047 | Action: 0 | Balance: $21969.15 | Shares: 0 | Reward: 119.69
+Step 1048 | Action: 1 | Balance: $0.73 | Shares: 2162 | Reward: 136.31
+Step 1049 | Action: 1 | Balance: $0.73 | Shares: 2162 | Reward: 142.37
+Step 1050 | Action: 0 | Balance: $0.73 | Shares: 2162 | Reward: 157.29
+Step 1051 | Action: 0 | Balance: $0.73 | Shares: 2162 | Reward: 144.10
+Step 1052 | Action: 2 | Balance: $24407.21 | Shares: 0 | Reward: 144.07
+Step 1053 | Action: 1 | Balance: $6.71 | Shares: 2200 | Reward: 140.09
+Step 1054 | Action: 2 | Balance: $24006.21 | Shares: 0 | Reward: 140.06
+Step 1055 | Action: 1 | Balance: $2.15 | Shares: 1881 | Reward: 209.82
+Step 1056 | Action: 1 | Balance: $2.15 | Shares: 1881 | Reward: 206.81
+Step 1057 | Action: 2 | Balance: $30678.76 | Shares: 0 | Reward: 206.79
+Step 1058 | Action: 2 | Balance: $30678.76 | Shares: 0 | Reward: 206.79
+Step 1059 | Action: 2 | Balance: $30678.76 | Shares: 0 | Reward: 206.79
+Step 1060 | Action: 0 | Balance: $30678.76 | Shares: 0 | Reward: 206.79
+Step 1061 | Action: 2 | Balance: $30678.76 | Shares: 0 | Reward: 206.79
+Step 1062 | Action: 1 | Balance: $13.11 | Shares: 1007 | Reward: 391.04
+Step 1063 | Action: 2 | Balance: $49101.86 | Shares: 0 | Reward: 391.02
+Step 1064 | Action: 0 | Balance: $49101.86 | Shares: 0 | Reward: 391.02
+Step 1065 | Action: 2 | Balance: $49101.86 | Shares: 0 | Reward: 391.02
+Step 1066 | Action: 2 | Balance: $49101.86 | Shares: 0 | Reward: 391.02
+Step 1067 | Action: 1 | Balance: $19.42 | Shares: 2121 | Reward: 369.36
+Step 1068 | Action: 2 | Balance: $46933.44 | Shares: 0 | Reward: 369.33
+Step 1069 | Action: 0 | Balance: $46933.44 | Shares: 0 | Reward: 369.33
+Step 1070 | Action: 0 | Balance: $46933.44 | Shares: 0 | Reward: 369.33
+Step 1071 | Action: 1 | Balance: $0.94 | Shares: 2470 | Reward: 487.38
+Step 1072 | Action: 1 | Balance: $0.94 | Shares: 2470 | Reward: 424.64
+Step 1073 | Action: 2 | Balance: $52461.24 | Shares: 0 | Reward: 424.61
+Step 1074 | Action: 0 | Balance: $52461.24 | Shares: 0 | Reward: 424.61
+Step 1075 | Action: 1 | Balance: $0.36 | Shares: 2267 | Reward: 534.76
+Step 1076 | Action: 0 | Balance: $0.36 | Shares: 2267 | Reward: 500.76
+Step 1077 | Action: 1 | Balance: $0.36 | Shares: 2267 | Reward: 615.70
+Step 1078 | Action: 0 | Balance: $0.36 | Shares: 2267 | Reward: 955.29
+Step 1079 | Action: 2 | Balance: $105526.71 | Shares: 0 | Reward: 955.27
+Step 1080 | Action: 0 | Balance: $105526.71 | Shares: 0 | Reward: 955.27
+Step 1081 | Action: 1 | Balance: $21.54 | Shares: 4249 | Reward: 1195.74
+Step 1082 | Action: 1 | Balance: $21.54 | Shares: 4249 | Reward: 982.01
+Step 1083 | Action: 1 | Balance: $21.54 | Shares: 4249 | Reward: 1137.52
+Step 1084 | Action: 2 | Balance: $123749.92 | Shares: 0 | Reward: 1137.50
+Step 1085 | Action: 2 | Balance: $123749.92 | Shares: 0 | Reward: 1137.50
+Step 1086 | Action: 0 | Balance: $123749.92 | Shares: 0 | Reward: 1137.50
+Step 1087 | Action: 0 | Balance: $123749.92 | Shares: 0 | Reward: 1137.50
+Step 1088 | Action: 1 | Balance: $19.77 | Shares: 4835 | Reward: 1057.21
+Step 1089 | Action: 2 | Balance: $115718.82 | Shares: 0 | Reward: 1057.19
+Step 1090 | Action: 2 | Balance: $115718.82 | Shares: 0 | Reward: 1057.19
+Step 1091 | Action: 2 | Balance: $115718.82 | Shares: 0 | Reward: 1057.19
+Step 1092 | Action: 2 | Balance: $115718.82 | Shares: 0 | Reward: 1057.19
+Step 1093 | Action: 2 | Balance: $115718.82 | Shares: 0 | Reward: 1057.19
+Step 1094 | Action: 2 | Balance: $115718.82 | Shares: 0 | Reward: 1057.19
+Step 1095 | Action: 2 | Balance: $115718.82 | Shares: 0 | Reward: 1057.19
+Step 1096 | Action: 0 | Balance: $115718.82 | Shares: 0 | Reward: 1057.19
+Step 1097 | Action: 0 | Balance: $115718.82 | Shares: 0 | Reward: 1057.19
+Step 1098 | Action: 1 | Balance: $15.02 | Shares: 4785 | Reward: 1070.08
+Step 1099 | Action: 0 | Balance: $15.02 | Shares: 4785 | Reward: 1077.26
+Step 1100 | Action: 2 | Balance: $117723.52 | Shares: 0 | Reward: 1077.24
+Step 1101 | Action: 0 | Balance: $117723.52 | Shares: 0 | Reward: 1077.24
+Step 1102 | Action: 1 | Balance: $22.31 | Shares: 4603 | Reward: 1099.30
+Step 1103 | Action: 2 | Balance: $119927.96 | Shares: 0 | Reward: 1099.28
+Step 1104 | Action: 0 | Balance: $119927.96 | Shares: 0 | Reward: 1099.28
+Step 1105 | Action: 2 | Balance: $119927.96 | Shares: 0 | Reward: 1099.28
+Step 1106 | Action: 0 | Balance: $119927.96 | Shares: 0 | Reward: 1099.28
+Step 1107 | Action: 1 | Balance: $23.42 | Shares: 4633 | Reward: 1057.09
+Step 1108 | Action: 2 | Balance: $115706.93 | Shares: 0 | Reward: 1057.07
+Step 1109 | Action: 1 | Balance: $20.29 | Shares: 4587 | Reward: 1069.89
+Step 1110 | Action: 0 | Balance: $20.29 | Shares: 4587 | Reward: 1001.54
+Step 1111 | Action: 0 | Balance: $20.29 | Shares: 4587 | Reward: 998.79
+Step 1112 | Action: 2 | Balance: $109876.44 | Shares: 0 | Reward: 998.76
+Step 1113 | Action: 1 | Balance: $10.05 | Shares: 4553 | Reward: 974.61
+Step 1114 | Action: 2 | Balance: $107458.35 | Shares: 0 | Reward: 974.58
+Step 1115 | Action: 1 | Balance: $3.05 | Shares: 4797 | Reward: 987.51
+Step 1116 | Action: 0 | Balance: $3.05 | Shares: 4797 | Reward: 941.46
+Step 1117 | Action: 0 | Balance: $3.05 | Shares: 4797 | Reward: 910.76
+Step 1118 | Action: 1 | Balance: $3.05 | Shares: 4797 | Reward: 890.61
+Step 1119 | Action: 1 | Balance: $99058.60 | Shares: 0 | Reward: 880.59
+Step 1120 | Action: 1 | Balance: $18.98 | Shares: 4654 | Reward: 869.62
+Step 1121 | Action: 2 | Balance: $96959.30 | Shares: 0 | Reward: 869.59
+Step 1122 | Action: 2 | Balance: $96959.30 | Shares: 0 | Reward: 869.59
+Step 1123 | Action: 1 | Balance: $4.27 | Shares: 4421 | Reward: 867.36
+Step 1124 | Action: 1 | Balance: $4.27 | Shares: 4421 | Reward: 884.60
+Step 1125 | Action: 0 | Balance: $4.27 | Shares: 4421 | Reward: 872.22
+Step 1126 | Action: 1 | Balance: $4.27 | Shares: 4421 | Reward: 896.09
+Step 1127 | Action: 0 | Balance: $4.27 | Shares: 4421 | Reward: 890.35
+Step 1128 | Action: 2 | Balance: $99032.17 | Shares: 0 | Reward: 890.32
+Step 1129 | Action: 0 | Balance: $99032.17 | Shares: 0 | Reward: 890.32
+Step 1130 | Action: 2 | Balance: $99032.17 | Shares: 0 | Reward: 890.32
+Step 1131 | Action: 2 | Balance: $99032.17 | Shares: 0 | Reward: 890.32
+Step 1132 | Action: 0 | Balance: $99032.17 | Shares: 0 | Reward: 890.32
+Step 1133 | Action: 2 | Balance: $99032.17 | Shares: 0 | Reward: 890.32
+Step 1134 | Action: 0 | Balance: $99032.17 | Shares: 0 | Reward: 890.32
+Step 1135 | Action: 0 | Balance: $99032.17 | Shares: 0 | Reward: 890.32
+Step 1136 | Action: 1 | Balance: $7.27 | Shares: 4976 | Reward: 970.41
+Step 1137 | Action: 2 | Balance: $107038.53 | Shares: 0 | Reward: 970.39
+Step 1138 | Action: 2 | Balance: $107038.53 | Shares: 0 | Reward: 970.39
+Step 1139 | Action: 2 | Balance: $107038.53 | Shares: 0 | Reward: 970.39
+Step 1140 | Action: 0 | Balance: $107038.53 | Shares: 0 | Reward: 970.39
+Step 1141 | Action: 2 | Balance: $107038.53 | Shares: 0 | Reward: 970.39
+Step 1142 | Action: 2 | Balance: $107038.53 | Shares: 0 | Reward: 970.39
+Step 1143 | Action: 0 | Balance: $107038.53 | Shares: 0 | Reward: 970.39
+Step 1144 | Action: 0 | Balance: $107038.53 | Shares: 0 | Reward: 970.39
+Step 1145 | Action: 2 | Balance: $107038.53 | Shares: 0 | Reward: 970.39
+Step 1146 | Action: 0 | Balance: $107038.53 | Shares: 0 | Reward: 970.39
+Step 1147 | Action: 1 | Balance: $7.08 | Shares: 5183 | Reward: 941.34
+Step 1148 | Action: 1 | Balance: $7.08 | Shares: 5183 | Reward: 944.96
+Step 1149 | Action: 1 | Balance: $7.08 | Shares: 5183 | Reward: 918.53
+Step 1150 | Action: 0 | Balance: $7.08 | Shares: 5183 | Reward: 911.27
+Step 1151 | Action: 2 | Balance: $101124.91 | Shares: 0 | Reward: 911.25
+Step 1152 | Action: 2 | Balance: $101124.91 | Shares: 0 | Reward: 911.25
+Step 1153 | Action: 1 | Balance: $13.49 | Shares: 4532 | Reward: 925.73
+Step 1154 | Action: 0 | Balance: $13.49 | Shares: 4532 | Reward: 905.33
+Step 1155 | Action: 0 | Balance: $13.49 | Shares: 4532 | Reward: 910.32
+Step 1156 | Action: 0 | Balance: $13.49 | Shares: 4532 | Reward: 918.93
+Step 1157 | Action: 0 | Balance: $13.49 | Shares: 4532 | Reward: 939.32
+Step 1158 | Action: 1 | Balance: $13.49 | Shares: 4532 | Reward: 895.82
+Step 1159 | Action: 2 | Balance: $99579.03 | Shares: 0 | Reward: 895.79
+Step 1160 | Action: 2 | Balance: $99579.03 | Shares: 0 | Reward: 895.79
+Step 1161 | Action: 0 | Balance: $99579.03 | Shares: 0 | Reward: 895.79
+Step 1162 | Action: 1 | Balance: $2.33 | Shares: 4653 | Reward: 872.50
+Step 1163 | Action: 0 | Balance: $2.33 | Shares: 4653 | Reward: 863.66
+Step 1164 | Action: 2 | Balance: $96363.46 | Shares: 0 | Reward: 863.63
+Step 1165 | Action: 2 | Balance: $96363.46 | Shares: 0 | Reward: 863.63
+Step 1166 | Action: 2 | Balance: $96363.46 | Shares: 0 | Reward: 863.63
+Step 1167 | Action: 1 | Balance: $1.38 | Shares: 4626 | Reward: 886.74
+Step 1168 | Action: 2 | Balance: $98671.46 | Shares: 0 | Reward: 886.71
+Step 1169 | Action: 1 | Balance: $18.70 | Shares: 4638 | Reward: 904.78
+Step 1170 | Action: 2 | Balance: $100475.28 | Shares: 0 | Reward: 904.75
+Step 1171 | Action: 0 | Balance: $100475.28 | Shares: 0 | Reward: 904.75
+Step 1172 | Action: 2 | Balance: $100475.28 | Shares: 0 | Reward: 904.75
+Step 1173 | Action: 2 | Balance: $100475.28 | Shares: 0 | Reward: 904.75
+Step 1174 | Action: 1 | Balance: $8.78 | Shares: 4800 | Reward: 886.01
+Step 1175 | Action: 1 | Balance: $8.78 | Shares: 4800 | Reward: 890.33
+Step 1176 | Action: 0 | Balance: $8.78 | Shares: 4800 | Reward: 887.45
+Step 1177 | Action: 1 | Balance: $8.78 | Shares: 4800 | Reward: 991.13
+Step 1178 | Action: 0 | Balance: $8.78 | Shares: 4800 | Reward: 988.73
+Step 1179 | Action: 1 | Balance: $8.78 | Shares: 4800 | Reward: 1017.53
+Step 1180 | Action: 1 | Balance: $8.78 | Shares: 4800 | Reward: 964.73
+Step 1181 | Action: 0 | Balance: $8.78 | Shares: 4800 | Reward: 975.77
+Step 1182 | Action: 0 | Balance: $8.78 | Shares: 4800 | Reward: 971.93
+Step 1183 | Action: 2 | Balance: $107190.28 | Shares: 0 | Reward: 971.90
+Step 1184 | Action: 2 | Balance: $107190.28 | Shares: 0 | Reward: 971.90
+Step 1185 | Action: 0 | Balance: $107190.28 | Shares: 0 | Reward: 971.90
+Step 1186 | Action: 0 | Balance: $107190.28 | Shares: 0 | Reward: 971.90
+Step 1187 | Action: 2 | Balance: $107190.28 | Shares: 0 | Reward: 971.90
+Step 1188 | Action: 2 | Balance: $107190.28 | Shares: 0 | Reward: 971.90
+Step 1189 | Action: 0 | Balance: $107190.28 | Shares: 0 | Reward: 971.90
+Step 1190 | Action: 2 | Balance: $107190.28 | Shares: 0 | Reward: 971.90
+Step 1191 | Action: 2 | Balance: $107190.28 | Shares: 0 | Reward: 971.90
+Step 1192 | Action: 2 | Balance: $107190.28 | Shares: 0 | Reward: 971.90
+Step 1193 | Action: 2 | Balance: $107190.28 | Shares: 0 | Reward: 971.90
+Step 1194 | Action: 2 | Balance: $107190.28 | Shares: 0 | Reward: 971.90
+Step 1195 | Action: 0 | Balance: $107190.28 | Shares: 0 | Reward: 971.90
+Step 1196 | Action: 1 | Balance: $25.14 | Shares: 3852 | Reward: 974.96
+Step 1197 | Action: 2 | Balance: $107493.44 | Shares: 0 | Reward: 974.93
+Step 1198 | Action: 2 | Balance: $107493.44 | Shares: 0 | Reward: 974.93
+Step 1199 | Action: 0 | Balance: $107493.44 | Shares: 0 | Reward: 974.93
+Step 1200 | Action: 1 | Balance: $24.63 | Shares: 3479 | Reward: 910.90
+Step 1201 | Action: 0 | Balance: $24.63 | Shares: 3479 | Reward: 848.97
+Step 1202 | Action: 2 | Balance: $94894.46 | Shares: 0 | Reward: 838.94
+Step 1203 | Action: 2 | Balance: $94894.46 | Shares: 0 | Reward: 848.94
+Step 1204 | Action: 2 | Balance: $94894.46 | Shares: 0 | Reward: 848.94
+Step 1205 | Action: 1 | Balance: $12.14 | Shares: 3314 | Reward: 863.17
+Step 1206 | Action: 2 | Balance: $96314.48 | Shares: 0 | Reward: 863.14
+Step 1207 | Action: 0 | Balance: $96314.48 | Shares: 0 | Reward: 863.14
+Step 1208 | Action: 2 | Balance: $96314.48 | Shares: 0 | Reward: 863.14
+Step 1209 | Action: 0 | Balance: $96314.48 | Shares: 0 | Reward: 863.14
+Step 1210 | Action: 2 | Balance: $96314.48 | Shares: 0 | Reward: 863.14
+Step 1211 | Action: 1 | Balance: $26.38 | Shares: 3440 | Reward: 913.00
+Step 1212 | Action: 1 | Balance: $26.38 | Shares: 3440 | Reward: 975.61
+Step 1213 | Action: 2 | Balance: $107558.28 | Shares: 0 | Reward: 975.58
+Step 1214 | Action: 0 | Balance: $107558.28 | Shares: 0 | Reward: 975.58
+Step 1215 | Action: 2 | Balance: $107558.28 | Shares: 0 | Reward: 975.58
+Step 1216 | Action: 2 | Balance: $107558.28 | Shares: 0 | Reward: 975.58
+Step 1217 | Action: 0 | Balance: $107558.28 | Shares: 0 | Reward: 975.58
+Step 1218 | Action: 2 | Balance: $107558.28 | Shares: 0 | Reward: 975.58
+Step 1219 | Action: 0 | Balance: $107558.28 | Shares: 0 | Reward: 975.58
+Step 1220 | Action: 1 | Balance: $7.78 | Shares: 3340 | Reward: 969.21
+Step 1221 | Action: 1 | Balance: $7.78 | Shares: 3340 | Reward: 946.83
+Step 1222 | Action: 0 | Balance: $7.78 | Shares: 3340 | Reward: 924.12
+Step 1223 | Action: 1 | Balance: $7.78 | Shares: 3340 | Reward: 957.19
+Step 1224 | Action: 1 | Balance: $7.78 | Shares: 3340 | Reward: 996.27
+Step 1225 | Action: 1 | Balance: $7.78 | Shares: 3340 | Reward: 1014.64
+Step 1226 | Action: 2 | Balance: $111461.08 | Shares: 0 | Reward: 1014.61
+Step 1227 | Action: 0 | Balance: $111461.08 | Shares: 0 | Reward: 1014.61
+Step 1228 | Action: 0 | Balance: $111461.08 | Shares: 0 | Reward: 1014.61
+Step 1229 | Action: 0 | Balance: $111461.08 | Shares: 0 | Reward: 1014.61
+Step 1230 | Action: 1 | Balance: $22.22 | Shares: 3997 | Reward: 1017.78
+Step 1231 | Action: 2 | Balance: $111775.84 | Shares: 0 | Reward: 1017.76
+Step 1232 | Action: 0 | Balance: $111775.84 | Shares: 0 | Reward: 1017.76
+Step 1233 | Action: 0 | Balance: $111775.84 | Shares: 0 | Reward: 1017.76
+Step 1234 | Action: 1 | Balance: $25.38 | Shares: 4068 | Reward: 1025.06
+Step 1235 | Action: 0 | Balance: $25.38 | Shares: 4068 | Reward: 1052.72
+Step 1236 | Action: 2 | Balance: $115269.32 | Shares: 0 | Reward: 1052.69
+Final Balance: $115269.32
+Done.
